@@ -1,0 +1,23 @@
+/*
+ * widths
+ */
+
+/*
+ * widths: %
+ */
+
+@for $i from 1 through 100 {
+  .w-#{$i}p {
+    width: #{$i} + "%";
+  }
+}
+
+/*
+ * widths: vw
+ */
+
+@for $i from 1 through 100 {
+  .w-#{$i}vw {
+    width: #{$i}vw;
+  }
+}

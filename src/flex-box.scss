@@ -1,0 +1,200 @@
+/*
+ * -------------------- FLEX BOX --------------------
+ * */
+
+/*
+ * -------------------- flex container classes --------------------
+ * */
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row {
+  display: flex;
+}
+
+/*
+ * align items 
+ */
+
+.flex-aiC {
+  align-items: center;
+}
+
+.flex-aiE {
+  align-items: flex-end;
+}
+
+.flex-aiS {
+  align-items: flex-start;
+}
+
+/*
+ * justify content 
+ */
+
+.flex-jcC {
+  justify-content: center;
+}
+
+.flex-jcE {
+  justify-content: flex-end;
+}
+
+.flex-jcS {
+  justify-content: flex-start;
+}
+
+.flex-jcSA {
+  justify-content: space-around;
+}
+
+.flex-jcSB {
+  justify-content: space-between;
+}
+
+.flex-jcSE {
+  justify-content: space-evenly;
+}
+
+/*
+ * combos 
+ */
+
+.flex-col-aiC {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-aiC {
+  align-items: center;
+  display: flex;
+}
+
+.flex-col-aiE {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-aiE {
+  align-items: flex-end;
+  display: flex;
+}
+
+.flex-col-jcC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-row-jcC {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-col-jcE {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.flex-row-jcE {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.flex-col-jcSA {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-row-jcSA {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-col-jcSB {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.flex-row-jcSB {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-col-jcSE {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.flex-row-jcSE {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flex-col-aiC-jcC {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-row-aiC-jcC {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+/*
+ * wrap 
+ */
+
+.flex-wNW {
+  flex-wrap: nowrap;
+}
+
+.flex-wW {
+  flex-wrap: wrap;
+}
+
+.flex-wWR {
+  flex-wrap: wrap-reverse;
+}
+
+/*
+ * ------------------ flex item classes -----------------
+ * */
+
+/*
+ * align self
+ */
+
+.flex-asC {
+  align-self: center;
+}
+
+.flex-asE {
+  align-self: flex-end;
+}
+
+.flex-asS {
+  align-self: flex-start;
+}
+
+/*
+ * grow
+ */
+
+@for $i from 1 through 5 {
+  .flex-g#{$i} {
+    flex-grow: #{$i};
+  }
+}
