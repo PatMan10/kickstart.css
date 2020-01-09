@@ -1,4 +1,4 @@
-@function getName($i) {
+@function getClassNumber($i) {
   @if $i < 10 {
     @return "0" + $i;
   } @else if $i % 10 == 0 {
@@ -10,14 +10,14 @@
 
 /*
  * ^^^^^^^^^^^^^^^^ MARGIN ^^^^^^^^^^^^^^^^ 
- * */
+ */
 
 /*
  * ----------------  margin: em ---------------- 
  */
 
 @for $i from 1 through 20 {
-  .m-#{getName($i)}e {
+  .m-#{getClassNumber($i)}e {
     margin: #{$i / 10}em;
   }
 }
@@ -27,7 +27,7 @@
  */
 
 @for $i from 1 through 20 {
-  .m-#{getName($i)}r {
+  .m-#{getClassNumber($i)}r {
     margin: #{$i / 10}rem;
   }
 }
@@ -41,7 +41,7 @@
  */
 
 @for $i from 1 through 20 {
-  .p-#{getName($i)}e {
+  .p-#{getClassNumber($i)}e {
     padding: #{$i / 10}em;
   }
 }
@@ -51,7 +51,7 @@
  */
 
 @for $i from 1 through 20 {
-  .p-#{getName($i)}r {
+  .p-#{getClassNumber($i)}r {
     padding: #{$i / 10}rem;
   }
 }
