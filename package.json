@@ -1,16 +1,19 @@
 {
   "name": "pmt-kickstart.css",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A css file with some utility classes for flex-box, heights, widths and more.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PatMan10/kickstart_css.git"
+    "url": "git+https://github.com/PatMan10/kickstart.css.git"
   },
-  "keywords": [],
+  "keywords": [
+    "css",
+    "PatMan10"
+  ],
   "author": "PatMan10",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PatMan10/kickstart_css/issues"
+    "url": "https://github.com/PatMan10/kickstart.css/issues"
   },
-  "homepage": "https://github.com/PatMan10/kickstart_css#readme"
+  "homepage": "https://github.com/PatMan10/kickstart.css#readme"
 }
