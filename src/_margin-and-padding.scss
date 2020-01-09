@@ -1,0 +1,57 @@
+@function getName($i) {
+  @if $i < 10 {
+    @return "0" + $i;
+  } @else if $i % 10 == 0 {
+    @return $i / 10 + "0";
+  } @else {
+    @return $i;
+  }
+}
+
+/*
+ * ^^^^^^^^^^^^^^^^ MARGIN ^^^^^^^^^^^^^^^^ 
+ * */
+
+/*
+ * ----------------  margin: em ---------------- 
+ */
+
+@for $i from 1 through 20 {
+  .m-#{getName($i)}e {
+    margin: #{$i / 10}em;
+  }
+}
+
+/*
+ * ----------------  margin: rem ---------------- 
+ */
+
+@for $i from 1 through 20 {
+  .m-#{getName($i)}r {
+    margin: #{$i / 10}rem;
+  }
+}
+
+/*
+ * ^^^^^^^^^^^^^^^^ PADDING ^^^^^^^^^^^^^^^^  
+ */
+
+/*
+ * ----------------  padding: em ---------------- 
+ */
+
+@for $i from 1 through 20 {
+  .p-#{getName($i)}e {
+    padding: #{$i / 10}em;
+  }
+}
+
+/*
+ * ---------------- padding: rem ---------------- 
+ */
+
+@for $i from 1 through 20 {
+  .p-#{getName($i)}r {
+    padding: #{$i / 10}rem;
+  }
+}
