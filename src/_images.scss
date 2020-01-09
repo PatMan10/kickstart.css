@@ -1,0 +1,81 @@
+/*
+ * ^^^^^^^^^^^^^^^^ IMAGES ^^^^^^^^^^^^^^^^
+ */
+
+.image {
+  align-items: center;
+  border-radius: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.image:hover {
+  background-color: silver;
+}
+
+.full-image {
+  height: 100%;
+  width: 100%;
+}
+
+.responsive-image {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+$base_height: 120px;
+$base_width: 120px;
+$sizes: "xxxs", "xxs", "xs", "s", "m", "l", "xl", "xxl", "xxxl";
+$shapes: "square", "circle", "horizontal", "vertical";
+
+@each $shape in $shapes {
+  @each $size in $sizes {
+    .image-#{$size}-#{$shape} {
+      $height: $base_height;
+      $width: $base_width;
+
+      @if $size == "xxxs" {
+        $height: $height * 0.2;
+        $width: $width * 0.2;
+      } @else if $size == "xxs" {
+        $height: $height * 0.4;
+        $width: $width * 0.4;
+      } @else if $size == "xs" {
+        $height: $height * 0.6;
+        $width: $width * 0.6;
+      } @else if $size == "s" {
+        $height: $height * 0.8;
+        $width: $width * 0.8;
+      } @else if $size == "m" {
+        $height: $height * 1;
+        $width: $width * 1;
+      } @else if $size == "l" {
+        $height: $height * 1.2;
+        $width: $width * 1.2;
+      } @else if $size == "xl" {
+        $height: $height * 1.4;
+        $width: $width * 1.4;
+      } @else if $size == "xxl" {
+        $height: $height * 1.6;
+        $width: $width * 1.6;
+      } @else if $size == "xxxl" {
+        $height: $height * 1.8;
+        $width: $width * 1.8;
+      }
+
+      @if $shape == "horizontal" {
+        $width: $width * 1.5;
+      }
+
+      @if $shape == "vertical" {
+        $height: $height * 1.5;
+      }
+
+      @if $shape == "circle" {
+        border-radius: 50%;
+      }
+      height: $height;
+      width: $width;
+    }
+  }
+}
