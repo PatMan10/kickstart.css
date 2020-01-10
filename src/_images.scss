@@ -9,10 +9,6 @@
   justify-content: center;
 }
 
-.image:hover {
-  background-color: silver;
-}
-
 .full-image {
   height: 100%;
   width: 100%;
@@ -23,8 +19,8 @@
   max-width: 100%;
 }
 
-$base_height: 120px;
-$base_width: 120px;
+$base_height: 100px;
+$base_width: 100px;
 $sizes: "xxxs", "xxs", "xs", "s", "m", "l", "xl", "xxl", "xxxl";
 $shapes: "square", "circle", "horizontal", "vertical";
 
