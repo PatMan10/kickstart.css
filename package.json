@@ -1,6 +1,6 @@
 {
   "name": "@patman10/kickstart.css",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A css file with some utility classes for flex-box, heights, widths and more.",
   "repository": {
     "type": "git",
