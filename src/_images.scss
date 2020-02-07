@@ -10,11 +10,13 @@
 }
 
 .full-image {
+  border-radius: inherit;
   height: 100%;
   width: 100%;
 }
 
 .responsive-image {
+  border-radius: inherit;
   max-height: 100%;
   max-width: 100%;
 }
