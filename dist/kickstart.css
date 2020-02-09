@@ -1850,192 +1850,192 @@
 }
 
 .icon-xxxs-square {
-  height: 10px;
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 .icon-xxs-square {
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
 }
 
 .icon-xs-square {
-  height: 30px;
-  width: 30px;
+  height: 24px;
+  width: 24px;
 }
 
 .icon-s-square {
+  height: 32px;
+  width: 32px;
+}
+
+.icon-m-square {
   height: 40px;
   width: 40px;
 }
 
-.icon-m-square {
-  height: 50px;
-  width: 50px;
-}
-
 .icon-l-square {
-  height: 60px;
-  width: 60px;
+  height: 48px;
+  width: 48px;
 }
 
 .icon-xl-square {
-  height: 70px;
-  width: 70px;
+  height: 56px;
+  width: 56px;
 }
 
 .icon-xxl-square {
-  height: 80px;
-  width: 80px;
+  height: 64px;
+  width: 64px;
 }
 
 .icon-xxxl-square {
-  height: 90px;
-  width: 90px;
+  height: 72px;
+  width: 72px;
 }
 
 .icon-xxxs-circle {
   border-radius: 50%;
-  height: 10px;
-  width: 10px;
+  height: 8px;
+  width: 8px;
 }
 
 .icon-xxs-circle {
   border-radius: 50%;
-  height: 20px;
-  width: 20px;
+  height: 16px;
+  width: 16px;
 }
 
 .icon-xs-circle {
   border-radius: 50%;
-  height: 30px;
-  width: 30px;
+  height: 24px;
+  width: 24px;
 }
 
 .icon-s-circle {
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 32px;
+  width: 32px;
 }
 
 .icon-m-circle {
   border-radius: 50%;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 
 .icon-l-circle {
   border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  height: 48px;
+  width: 48px;
 }
 
 .icon-xl-circle {
   border-radius: 50%;
-  height: 70px;
-  width: 70px;
+  height: 56px;
+  width: 56px;
 }
 
 .icon-xxl-circle {
   border-radius: 50%;
-  height: 80px;
-  width: 80px;
+  height: 64px;
+  width: 64px;
 }
 
 .icon-xxxl-circle {
   border-radius: 50%;
-  height: 90px;
-  width: 90px;
+  height: 72px;
+  width: 72px;
 }
 
 .icon-xxxs-horizontal {
-  height: 10px;
-  width: 15px;
+  height: 8px;
+  width: 12px;
 }
 
 .icon-xxs-horizontal {
-  height: 20px;
-  width: 30px;
+  height: 16px;
+  width: 24px;
 }
 
 .icon-xs-horizontal {
-  height: 30px;
-  width: 45px;
+  height: 24px;
+  width: 36px;
 }
 
 .icon-s-horizontal {
+  height: 32px;
+  width: 48px;
+}
+
+.icon-m-horizontal {
   height: 40px;
   width: 60px;
 }
 
-.icon-m-horizontal {
-  height: 50px;
-  width: 75px;
-}
-
 .icon-l-horizontal {
-  height: 60px;
-  width: 90px;
+  height: 48px;
+  width: 72px;
 }
 
 .icon-xl-horizontal {
-  height: 70px;
-  width: 105px;
+  height: 56px;
+  width: 84px;
 }
 
 .icon-xxl-horizontal {
-  height: 80px;
-  width: 120px;
+  height: 64px;
+  width: 96px;
 }
 
 .icon-xxxl-horizontal {
-  height: 90px;
-  width: 135px;
+  height: 72px;
+  width: 108px;
 }
 
 .icon-xxxs-vertical {
-  height: 15px;
-  width: 10px;
+  height: 12px;
+  width: 8px;
 }
 
 .icon-xxs-vertical {
-  height: 30px;
-  width: 20px;
+  height: 24px;
+  width: 16px;
 }
 
 .icon-xs-vertical {
-  height: 45px;
-  width: 30px;
+  height: 36px;
+  width: 24px;
 }
 
 .icon-s-vertical {
+  height: 48px;
+  width: 32px;
+}
+
+.icon-m-vertical {
   height: 60px;
   width: 40px;
 }
 
-.icon-m-vertical {
-  height: 75px;
-  width: 50px;
-}
-
 .icon-l-vertical {
-  height: 90px;
-  width: 60px;
+  height: 72px;
+  width: 48px;
 }
 
 .icon-xl-vertical {
-  height: 105px;
-  width: 70px;
+  height: 84px;
+  width: 56px;
 }
 
 .icon-xxl-vertical {
-  height: 120px;
-  width: 80px;
+  height: 96px;
+  width: 64px;
 }
 
 .icon-xxxl-vertical {
-  height: 135px;
-  width: 90px;
+  height: 108px;
+  width: 72px;
 }
 
 /*
@@ -2086,23 +2086,23 @@
 }
 
 .image-l-square {
-  height: 192px;
-  width: 192px;
+  height: 208px;
+  width: 208px;
 }
 
 .image-xl-square {
-  height: 224px;
-  width: 224px;
-}
-
-.image-xxl-square {
   height: 256px;
   width: 256px;
 }
 
+.image-xxl-square {
+  height: 304px;
+  width: 304px;
+}
+
 .image-xxxl-square {
-  height: 288px;
-  width: 288px;
+  height: 352px;
+  width: 352px;
 }
 
 .image-xxxs-circle {
@@ -2137,26 +2137,26 @@
 
 .image-l-circle {
   border-radius: 50%;
-  height: 192px;
-  width: 192px;
+  height: 208px;
+  width: 208px;
 }
 
 .image-xl-circle {
-  border-radius: 50%;
-  height: 224px;
-  width: 224px;
-}
-
-.image-xxl-circle {
   border-radius: 50%;
   height: 256px;
   width: 256px;
 }
 
+.image-xxl-circle {
+  border-radius: 50%;
+  height: 304px;
+  width: 304px;
+}
+
 .image-xxxl-circle {
   border-radius: 50%;
-  height: 288px;
-  width: 288px;
+  height: 352px;
+  width: 352px;
 }
 
 .image-xxxs-horizontal {
@@ -2185,23 +2185,23 @@
 }
 
 .image-l-horizontal {
-  height: 192px;
-  width: 288px;
+  height: 208px;
+  width: 312px;
 }
 
 .image-xl-horizontal {
-  height: 224px;
-  width: 336px;
-}
-
-.image-xxl-horizontal {
   height: 256px;
   width: 384px;
 }
 
+.image-xxl-horizontal {
+  height: 304px;
+  width: 456px;
+}
+
 .image-xxxl-horizontal {
-  height: 288px;
-  width: 432px;
+  height: 352px;
+  width: 528px;
 }
 
 .image-xxxs-vertical {
@@ -2230,23 +2230,23 @@
 }
 
 .image-l-vertical {
-  height: 288px;
-  width: 192px;
+  height: 312px;
+  width: 208px;
 }
 
 .image-xl-vertical {
-  height: 336px;
-  width: 224px;
-}
-
-.image-xxl-vertical {
   height: 384px;
   width: 256px;
 }
 
+.image-xxl-vertical {
+  height: 456px;
+  width: 304px;
+}
+
 .image-xxxl-vertical {
-  height: 432px;
-  width: 288px;
+  height: 528px;
+  width: 352px;
 }
 
 /*
