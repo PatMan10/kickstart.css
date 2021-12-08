@@ -24,16 +24,16 @@ $base_h: 100px;
 $base_w: 100px;
 
 @each $size in $sizes {
-  $h: $base_h * map-get($scale_factors, $size);
-  $w: $base_w * map-get($scale_factors, $size);
-
   @each $shape in $shapes {
     @if $shape == "rect" {
       @each $orientation in $orientations {
-        @if $orientation == "h" {
-          $w: $w * 1.5;
+        $h: $base_h * map-get($scale_factors, $size);
+        $w: $base_w * map-get($scale_factors, $size);
+
+        @if $orientation == "v" {
+          $h: $base_h * 1.5 * map-get($scale_factors, $size);
         } @else {
-          $h: $h * 1.5;
+          $w: $base_w * 1.5 * map-get($scale_factors, $size);
         }
 
         .#{$size}-#{$orientation}-#{$shape}-icon-container {
@@ -41,6 +41,9 @@ $base_w: 100px;
         }
       }
     } @else {
+      $h: $base_h * map-get($scale_factors, $size);
+      $w: $base_w * map-get($scale_factors, $size);
+
       .#{$size}-#{$shape}-icon-container {
         @include icon-container($h, $w);
 
