@@ -16,5 +16,8 @@
   },
   "homepage": "https://github.com/PatMan10/kickstart.css#readme",
   "main": "index.js",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "sass": "^1.44.0"
+  }
 }
