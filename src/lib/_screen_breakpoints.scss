@@ -1,4 +1,4 @@
-$sizes: "xs", "s", "m", "l", "xl", "xxl";
+@import "variables";
 
 $screen_breakpoints: (
   xs: 0,
@@ -34,4 +34,3 @@ $body_bg_colors: (
     }
   }
 }
-

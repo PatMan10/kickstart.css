@@ -1855,18 +1855,6 @@
 /*
  * ^^^^^^^^^^^^^^^^ ICONS ^^^^^^^^^^^^^^^^
  */
-.icon {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-}
-
-.icon:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
 .full-icon {
   border-radius: inherit;
   height: 100%;
@@ -1879,100 +1867,520 @@
   max-width: 100%;
 }
 
-.icon-xs-square {
+.xs-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
   height: 80px;
   width: 80px;
 }
 
-.icon-s-square {
-  height: 90px;
-  width: 90px;
+.xs-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
 }
 
-.icon-m-square {
-  height: 100px;
-  width: 100px;
+.xs-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 80px;
 }
 
-.icon-l-square {
-  height: 110px;
-  width: 110px;
+.xs-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
 }
 
-.icon-xl-square {
-  height: 120px;
-  width: 120px;
-}
-
-.icon-xxl-square {
-  height: 130px;
-  width: 130px;
-}
-
-.icon-xs-circle {
+.xs-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
   border-radius: 50%;
   height: 80px;
   width: 80px;
 }
 
-.icon-s-circle {
-  border-radius: 50%;
-  height: 90px;
-  width: 90px;
+.xs-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
 }
 
-.icon-m-circle {
+.xs-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
-}
-
-.icon-l-circle {
-  border-radius: 50%;
-  height: 110px;
-  width: 110px;
-}
-
-.icon-xl-circle {
-  border-radius: 50%;
-  height: 120px;
-  width: 120px;
-}
-
-.icon-xxl-circle {
-  border-radius: 50%;
-  height: 130px;
-  width: 130px;
-}
-
-.icon-xs-rectangle {
   height: 80px;
   width: 80px;
 }
 
-.icon-s-rectangle {
+.xs-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xs-h-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  width: 120px;
+}
+
+.xs-h-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xs-v-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  width: 80px;
+}
+
+.xs-v-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.s-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
   height: 90px;
   width: 90px;
 }
 
-.icon-m-rectangle {
+.s-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.s-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: 90px;
+}
+
+.s-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.s-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+
+.s-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.s-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+
+.s-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.s-h-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 90px;
+  width: 135px;
+}
+
+.s-h-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.s-v-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 135px;
+  width: 90px;
+}
+
+.s-v-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.m-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
   height: 100px;
   width: 100px;
 }
 
-.icon-l-rectangle {
+.m-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.m-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+}
+
+.m-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.m-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.m-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.m-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+.m-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.m-h-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 150px;
+}
+
+.m-h-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.m-v-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  width: 100px;
+}
+
+.m-v-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.l-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
   height: 110px;
   width: 110px;
 }
 
-.icon-xl-rectangle {
+.l-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.l-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 110px;
+  width: 110px;
+}
+
+.l-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.l-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+}
+
+.l-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.l-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 110px;
+  width: 110px;
+}
+
+.l-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.l-h-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 110px;
+  width: 165px;
+}
+
+.l-h-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.l-v-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 165px;
+  width: 110px;
+}
+
+.l-v-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xl-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
   height: 120px;
   width: 120px;
 }
 
-.icon-xxl-rectangle {
+.xl-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xl-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  width: 120px;
+}
+
+.xl-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xl-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.xl-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xl-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+}
+
+.xl-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xl-h-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  width: 180px;
+}
+
+.xl-h-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xl-v-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 180px;
+  width: 120px;
+}
+
+.xl-v-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xxl-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
   height: 130px;
   width: 130px;
+}
+
+.xxl-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xxl-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 130px;
+  width: 130px;
+}
+
+.xxl-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xxl-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+
+.xxl-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xxl-circ-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+}
+
+.xxl-circ-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xxl-h-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 130px;
+  width: 195px;
+}
+
+.xxl-h-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xxl-v-rect-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+  height: 195px;
+  width: 130px;
+}
+
+.xxl-v-rect-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
 }
 
 /*

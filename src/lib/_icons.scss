@@ -2,19 +2,6 @@
 /*
  * ^^^^^^^^^^^^^^^^ ICONS ^^^^^^^^^^^^^^^^
  */
-
-.icon {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-}
-
-.icon:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
 .full-icon {
   border-radius: inherit;
   height: 100%;
@@ -30,28 +17,42 @@
 $base_h: 100px;
 $base_w: 100px;
 
-$shapes: "square", "circle", "rectangle";
-$orientation: "horizontal", "vertical";
+@each $size in $sizes {
+  @each $shape in $shapes {
+    @each $orientation in $orientations {
+      $className: "#{$size}-#{$shape}-icon-container";
+      @if $shape == "rect" {
+        $className: "#{$size}-#{$orientation}-#{$shape}-icon-container";
+      }
+      .#{$className} {
+        align-items: center;
+        border-radius: 10%;
+        display: flex;
+        justify-content: center;
 
-@each $shape in $shapes {
-  @each $size in $sizes {
-    .icon-#{$size}-#{$shape} {
-      $h: $base_h * map-get($scale_factors, $size);
-      $w: $base_w * map-get($scale_factors, $size);
+        $h: $base_h * map-get($scale_factors, $size);
+        $w: $base_w * map-get($scale_factors, $size);
 
-      @if $shape == "horizontal" {
-        $w: $w * 1.5;
+        @if $shape == "circ" {
+          border-radius: 50%;
+        }
+
+        @if $shape == "rect" and $orientation == "h" {
+          $w: $w * 1.5;
+        }
+
+        @if $shape == "rect" and $orientation == "v" {
+          $h: $h * 1.5;
+        }
+
+        height: $h;
+        width: $w;
       }
 
-      @if $shape == "vertical" {
-        $h: $h * 1.5;
+      .#{$className}:hover {
+        background-color: silver;
+        cursor: pointer;
       }
-
-      @if $shape == "circle" {
-        border-radius: 50%;
-      }
-      height: $h;
-      width: $w;
     }
   }
 }
