@@ -9,6 +9,15 @@ $screen_breakpoints: (
   xxl: 1400px,
 );
 
+$scale_factors: (
+  xs: 0.8,
+  s: 0.9,
+  m: 1,
+  l: 1.1,
+  xl: 1.2,
+  xxl: 1.3,
+);
+
 $body_bg_colors: (
   xs: red,
   s: orange,
@@ -25,3 +34,4 @@ $body_bg_colors: (
     }
   }
 }
+

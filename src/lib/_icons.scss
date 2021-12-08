@@ -30,33 +30,14 @@
 $base_h: 100px;
 $base_w: 100px;
 
-$shapes: "square", "circle", "horizontal", "vertical";
+$shapes: "square", "circle", "rectangle";
+$orientation: "horizontal", "vertical";
 
 @each $shape in $shapes {
   @each $size in $sizes {
     .icon-#{$size}-#{$shape} {
-      $h: $base_h;
-      $w: $base_w;
-
-      @if $size == "xs" {
-        $h: $h * 0.6;
-        $w: $w * 0.6;
-      } @else if $size == "s" {
-        $h: $h * 0.8;
-        $w: $w * 0.8;
-      } @else if $size == "m" {
-        $h: $h * 1;
-        $w: $w * 1;
-      } @else if $size == "l" {
-        $h: $h * 1.2;
-        $w: $w * 1.2;
-      } @else if $size == "xl" {
-        $h: $h * 1.4;
-        $w: $w * 1.4;
-      } @else if $size == "xxl" {
-        $h: $h * 1.6;
-        $w: $w * 1.6;
-      }
+      $h: $base_h * map-get($scale_factors, $size);
+      $w: $base_w * map-get($scale_factors, $size);
 
       @if $shape == "horizontal" {
         $w: $w * 1.5;

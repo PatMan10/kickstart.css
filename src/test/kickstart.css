@@ -1880,13 +1880,13 @@
 }
 
 .icon-xs-square {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
 }
 
 .icon-s-square {
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
 }
 
 .icon-m-square {
@@ -1895,30 +1895,30 @@
 }
 
 .icon-l-square {
+  height: 110px;
+  width: 110px;
+}
+
+.icon-xl-square {
   height: 120px;
   width: 120px;
 }
 
-.icon-xl-square {
-  height: 140px;
-  width: 140px;
-}
-
 .icon-xxl-square {
-  height: 160px;
-  width: 160px;
+  height: 130px;
+  width: 130px;
 }
 
 .icon-xs-circle {
   border-radius: 50%;
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
 }
 
 .icon-s-circle {
   border-radius: 50%;
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
 }
 
 .icon-m-circle {
@@ -1929,80 +1929,50 @@
 
 .icon-l-circle {
   border-radius: 50%;
-  height: 120px;
-  width: 120px;
+  height: 110px;
+  width: 110px;
 }
 
 .icon-xl-circle {
   border-radius: 50%;
-  height: 140px;
-  width: 140px;
+  height: 120px;
+  width: 120px;
 }
 
 .icon-xxl-circle {
   border-radius: 50%;
-  height: 160px;
-  width: 160px;
+  height: 130px;
+  width: 130px;
 }
 
-.icon-xs-horizontal {
-  height: 60px;
-  width: 90px;
-}
-
-.icon-s-horizontal {
+.icon-xs-rectangle {
   height: 80px;
-  width: 120px;
-}
-
-.icon-m-horizontal {
-  height: 100px;
-  width: 150px;
-}
-
-.icon-l-horizontal {
-  height: 120px;
-  width: 180px;
-}
-
-.icon-xl-horizontal {
-  height: 140px;
-  width: 210px;
-}
-
-.icon-xxl-horizontal {
-  height: 160px;
-  width: 240px;
-}
-
-.icon-xs-vertical {
-  height: 90px;
-  width: 60px;
-}
-
-.icon-s-vertical {
-  height: 120px;
   width: 80px;
 }
 
-.icon-m-vertical {
-  height: 150px;
+.icon-s-rectangle {
+  height: 90px;
+  width: 90px;
+}
+
+.icon-m-rectangle {
+  height: 100px;
   width: 100px;
 }
 
-.icon-l-vertical {
-  height: 180px;
+.icon-l-rectangle {
+  height: 110px;
+  width: 110px;
+}
+
+.icon-xl-rectangle {
+  height: 120px;
   width: 120px;
 }
 
-.icon-xl-vertical {
-  height: 210px;
-  width: 140px;
-}
-
-.icon-xxl-vertical {
-  height: 240px;
-  width: 160px;
+.icon-xxl-rectangle {
+  height: 130px;
+  width: 130px;
 }
 
 /*
