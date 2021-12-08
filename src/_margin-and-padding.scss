@@ -2,7 +2,7 @@
   @if $i < 10 {
     @return "0" + $i;
   } @else if $i % 10 == 0 {
-    @return $i / 10 + "0";
+    @return calc($i / 10) + "0";
   } @else {
     @return $i;
   }
@@ -18,7 +18,7 @@
 
 @for $i from 1 through 20 {
   .m-#{getClassNumber($i)}e {
-    margin: #{$i / 10}em;
+    margin: #{calc($i / 10)}em;
   }
 }
 
@@ -28,7 +28,7 @@
 
 @for $i from 1 through 20 {
   .m-#{getClassNumber($i)}r {
-    margin: #{$i / 10}rem;
+    margin: #{calc($i / 10)}rem;
   }
 }
 
@@ -42,7 +42,7 @@
 
 @for $i from 1 through 20 {
   .p-#{getClassNumber($i)}e {
-    padding: #{$i / 10}em;
+    padding: #{calc($i / 10)}em;
   }
 }
 
@@ -52,6 +52,6 @@
 
 @for $i from 1 through 20 {
   .p-#{getClassNumber($i)}r {
-    padding: #{$i / 10}rem;
+    padding: #{calc($i / 10)}rem;
   }
 }

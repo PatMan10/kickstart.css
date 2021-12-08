@@ -1,0 +1,27 @@
+$sizes: "xs", "s", "m", "l", "xl", "xxl";
+
+$screen_breakpoints: (
+  xs: 0,
+  s: 576px,
+  m: 768px,
+  l: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+$body_bg_colors: (
+  xs: red,
+  s: orange,
+  m: yellow,
+  l: greenyellow,
+  xl: limegreen,
+  xxl: green,
+);
+
+@each $name, $width in $screen_breakpoints {
+  @media (min-width: #{$width}) {
+    body {
+      background-color: map-get($body_bg_colors, $name);
+    }
+  }
+}

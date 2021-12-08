@@ -1822,6 +1822,36 @@
   width: 100vw;
 }
 
+@media (min-width: 0) {
+  body {
+    background-color: red;
+  }
+}
+@media (min-width: 576px) {
+  body {
+    background-color: orange;
+  }
+}
+@media (min-width: 768px) {
+  body {
+    background-color: yellow;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    background-color: greenyellow;
+  }
+}
+@media (min-width: 1200px) {
+  body {
+    background-color: limegreen;
+  }
+}
+@media (min-width: 1400px) {
+  body {
+    background-color: green;
+  }
+}
 /*
  * ^^^^^^^^^^^^^^^^ ICONS ^^^^^^^^^^^^^^^^
  */
@@ -1849,193 +1879,130 @@
   max-width: 100%;
 }
 
-.icon-xxxs-square {
-  height: 8px;
-  width: 8px;
-}
-
-.icon-xxs-square {
-  height: 16px;
-  width: 16px;
-}
-
 .icon-xs-square {
-  height: 24px;
-  width: 24px;
+  height: 30px;
+  width: 30px;
 }
 
 .icon-s-square {
-  height: 32px;
-  width: 32px;
-}
-
-.icon-m-square {
   height: 40px;
   width: 40px;
 }
 
+.icon-m-square {
+  height: 50px;
+  width: 50px;
+}
+
 .icon-l-square {
-  height: 48px;
-  width: 48px;
+  height: 60px;
+  width: 60px;
 }
 
 .icon-xl-square {
-  height: 56px;
-  width: 56px;
+  height: 70px;
+  width: 70px;
 }
 
 .icon-xxl-square {
-  height: 64px;
-  width: 64px;
-}
-
-.icon-xxxl-square {
-  height: 72px;
-  width: 72px;
-}
-
-.icon-xxxs-circle {
-  border-radius: 50%;
-  height: 8px;
-  width: 8px;
-}
-
-.icon-xxs-circle {
-  border-radius: 50%;
-  height: 16px;
-  width: 16px;
+  height: 80px;
+  width: 80px;
 }
 
 .icon-xs-circle {
   border-radius: 50%;
-  height: 24px;
-  width: 24px;
+  height: 30px;
+  width: 30px;
 }
 
 .icon-s-circle {
   border-radius: 50%;
-  height: 32px;
-  width: 32px;
+  height: 40px;
+  width: 40px;
 }
 
 .icon-m-circle {
   border-radius: 50%;
-  height: 40px;
-  width: 40px;
+  height: 50px;
+  width: 50px;
 }
 
 .icon-l-circle {
   border-radius: 50%;
-  height: 48px;
-  width: 48px;
+  height: 60px;
+  width: 60px;
 }
 
 .icon-xl-circle {
   border-radius: 50%;
-  height: 56px;
-  width: 56px;
+  height: 70px;
+  width: 70px;
 }
 
 .icon-xxl-circle {
   border-radius: 50%;
-  height: 64px;
-  width: 64px;
-}
-
-.icon-xxxl-circle {
-  border-radius: 50%;
-  height: 72px;
-  width: 72px;
-}
-
-.icon-xxxs-horizontal {
-  height: 8px;
-  width: 12px;
-}
-
-.icon-xxs-horizontal {
-  height: 16px;
-  width: 24px;
+  height: 80px;
+  width: 80px;
 }
 
 .icon-xs-horizontal {
-  height: 24px;
-  width: 36px;
+  height: 30px;
+  width: 45px;
 }
 
 .icon-s-horizontal {
-  height: 32px;
-  width: 48px;
-}
-
-.icon-m-horizontal {
   height: 40px;
   width: 60px;
 }
 
+.icon-m-horizontal {
+  height: 50px;
+  width: 75px;
+}
+
 .icon-l-horizontal {
-  height: 48px;
-  width: 72px;
+  height: 60px;
+  width: 90px;
 }
 
 .icon-xl-horizontal {
-  height: 56px;
-  width: 84px;
+  height: 70px;
+  width: 105px;
 }
 
 .icon-xxl-horizontal {
-  height: 64px;
-  width: 96px;
-}
-
-.icon-xxxl-horizontal {
-  height: 72px;
-  width: 108px;
-}
-
-.icon-xxxs-vertical {
-  height: 12px;
-  width: 8px;
-}
-
-.icon-xxs-vertical {
-  height: 24px;
-  width: 16px;
+  height: 80px;
+  width: 120px;
 }
 
 .icon-xs-vertical {
-  height: 36px;
-  width: 24px;
+  height: 45px;
+  width: 30px;
 }
 
 .icon-s-vertical {
-  height: 48px;
-  width: 32px;
-}
-
-.icon-m-vertical {
   height: 60px;
   width: 40px;
 }
 
+.icon-m-vertical {
+  height: 75px;
+  width: 50px;
+}
+
 .icon-l-vertical {
-  height: 72px;
-  width: 48px;
+  height: 90px;
+  width: 60px;
 }
 
 .icon-xl-vertical {
-  height: 84px;
-  width: 56px;
+  height: 105px;
+  width: 70px;
 }
 
 .icon-xxl-vertical {
-  height: 96px;
-  width: 64px;
-}
-
-.icon-xxxl-vertical {
-  height: 108px;
-  width: 72px;
+  height: 120px;
+  width: 80px;
 }
 
 /*
