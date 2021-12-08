@@ -1855,6 +1855,144 @@
 /*
  * ^^^^^^^^^^^^^^^^ ICONS ^^^^^^^^^^^^^^^^
  */
+.xxl-v-rect-icon-container, .xxl-h-rect-icon-container, .xxl-circ-icon-container, .xxl-sqr-icon-container, .xl-v-rect-icon-container, .xl-h-rect-icon-container, .xl-circ-icon-container, .xl-sqr-icon-container, .l-v-rect-icon-container, .l-h-rect-icon-container, .l-circ-icon-container, .l-sqr-icon-container, .m-v-rect-icon-container, .m-h-rect-icon-container, .m-circ-icon-container, .m-sqr-icon-container, .s-v-rect-icon-container, .s-h-rect-icon-container, .s-circ-icon-container, .s-sqr-icon-container, .xs-v-rect-icon-container, .xs-h-rect-icon-container, .xs-circ-icon-container, .xs-sqr-icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.xxl-v-rect-icon-container:hover, .xxl-h-rect-icon-container:hover, .xxl-circ-icon-container:hover, .xxl-sqr-icon-container:hover, .xl-v-rect-icon-container:hover, .xl-h-rect-icon-container:hover, .xl-circ-icon-container:hover, .xl-sqr-icon-container:hover, .l-v-rect-icon-container:hover, .l-h-rect-icon-container:hover, .l-circ-icon-container:hover, .l-sqr-icon-container:hover, .m-v-rect-icon-container:hover, .m-h-rect-icon-container:hover, .m-circ-icon-container:hover, .m-sqr-icon-container:hover, .s-v-rect-icon-container:hover, .s-h-rect-icon-container:hover, .s-circ-icon-container:hover, .s-sqr-icon-container:hover, .xs-v-rect-icon-container:hover, .xs-h-rect-icon-container:hover, .xs-circ-icon-container:hover, .xs-sqr-icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+.xs-sqr-icon-container {
+  height: 80px;
+  width: 80px;
+}
+
+.xs-circ-icon-container {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.xs-h-rect-icon-container {
+  height: 80px;
+  width: 120px;
+}
+
+.xs-v-rect-icon-container {
+  height: 120px;
+  width: 120px;
+}
+
+.s-sqr-icon-container {
+  height: 90px;
+  width: 90px;
+}
+
+.s-circ-icon-container {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+}
+
+.s-h-rect-icon-container {
+  height: 90px;
+  width: 135px;
+}
+
+.s-v-rect-icon-container {
+  height: 135px;
+  width: 135px;
+}
+
+.m-sqr-icon-container {
+  height: 100px;
+  width: 100px;
+}
+
+.m-circ-icon-container {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.m-h-rect-icon-container {
+  height: 100px;
+  width: 150px;
+}
+
+.m-v-rect-icon-container {
+  height: 150px;
+  width: 150px;
+}
+
+.l-sqr-icon-container {
+  height: 110px;
+  width: 110px;
+}
+
+.l-circ-icon-container {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+}
+
+.l-h-rect-icon-container {
+  height: 110px;
+  width: 165px;
+}
+
+.l-v-rect-icon-container {
+  height: 165px;
+  width: 165px;
+}
+
+.xl-sqr-icon-container {
+  height: 120px;
+  width: 120px;
+}
+
+.xl-circ-icon-container {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.xl-h-rect-icon-container {
+  height: 120px;
+  width: 180px;
+}
+
+.xl-v-rect-icon-container {
+  height: 180px;
+  width: 180px;
+}
+
+.xxl-sqr-icon-container {
+  height: 130px;
+  width: 130px;
+}
+
+.xxl-circ-icon-container {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
+
+.xxl-h-rect-icon-container {
+  height: 130px;
+  width: 195px;
+}
+
+.xxl-v-rect-icon-container {
+  height: 195px;
+  width: 195px;
+}
+
 .full-icon {
   border-radius: inherit;
   height: 100%;
@@ -1865,522 +2003,6 @@
   border-radius: inherit;
   max-height: 100%;
   max-width: 100%;
-}
-
-.xs-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 80px;
-  width: 80px;
-}
-
-.xs-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xs-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 80px;
-  width: 80px;
-}
-
-.xs-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xs-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
-}
-
-.xs-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xs-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 80px;
-  width: 80px;
-}
-
-.xs-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xs-h-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 80px;
-  width: 120px;
-}
-
-.xs-h-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xs-v-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 120px;
-  width: 80px;
-}
-
-.xs-v-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.s-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 90px;
-  width: 90px;
-}
-
-.s-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.s-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 90px;
-  width: 90px;
-}
-
-.s-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.s-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 90px;
-  width: 90px;
-}
-
-.s-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.s-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 90px;
-  width: 90px;
-}
-
-.s-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.s-h-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 90px;
-  width: 135px;
-}
-
-.s-h-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.s-v-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 135px;
-  width: 90px;
-}
-
-.s-v-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.m-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
-}
-
-.m-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.m-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 100px;
-  width: 100px;
-}
-
-.m-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.m-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-}
-
-.m-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.m-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-}
-
-.m-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.m-h-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 100px;
-  width: 150px;
-}
-
-.m-h-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.m-v-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 150px;
-  width: 100px;
-}
-
-.m-v-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.l-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 110px;
-  width: 110px;
-}
-
-.l-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.l-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 110px;
-  width: 110px;
-}
-
-.l-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.l-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 110px;
-  width: 110px;
-}
-
-.l-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.l-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 110px;
-  width: 110px;
-}
-
-.l-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.l-h-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 110px;
-  width: 165px;
-}
-
-.l-h-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.l-v-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 165px;
-  width: 110px;
-}
-
-.l-v-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xl-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 120px;
-  width: 120px;
-}
-
-.xl-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xl-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 120px;
-  width: 120px;
-}
-
-.xl-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xl-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 120px;
-  width: 120px;
-}
-
-.xl-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xl-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 120px;
-  width: 120px;
-}
-
-.xl-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xl-h-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 120px;
-  width: 180px;
-}
-
-.xl-h-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xl-v-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 180px;
-  width: 120px;
-}
-
-.xl-v-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xxl-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 130px;
-  width: 130px;
-}
-
-.xxl-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xxl-sqr-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 130px;
-  width: 130px;
-}
-
-.xxl-sqr-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xxl-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 130px;
-  width: 130px;
-}
-
-.xxl-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xxl-circ-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  border-radius: 50%;
-  height: 130px;
-  width: 130px;
-}
-
-.xxl-circ-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xxl-h-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 130px;
-  width: 195px;
-}
-
-.xxl-h-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
-.xxl-v-rect-icon-container {
-  align-items: center;
-  border-radius: 10%;
-  display: flex;
-  justify-content: center;
-  height: 195px;
-  width: 130px;
-}
-
-.xxl-v-rect-icon-container:hover {
-  background-color: silver;
-  cursor: pointer;
 }
 
 /*

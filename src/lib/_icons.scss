@@ -2,6 +2,56 @@
 /*
  * ^^^^^^^^^^^^^^^^ ICONS ^^^^^^^^^^^^^^^^
  */
+%icon-container {
+  align-items: center;
+  border-radius: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+%icon-container:hover {
+  background-color: silver;
+  cursor: pointer;
+}
+
+@mixin icon-container($h, $w) {
+  @extend %icon-container;
+  height: $h;
+  width: $w;
+}
+
+$base_h: 100px;
+$base_w: 100px;
+
+@each $size in $sizes {
+  $h: $base_h * map-get($scale_factors, $size);
+  $w: $base_w * map-get($scale_factors, $size);
+
+  @each $shape in $shapes {
+    @if $shape == "rect" {
+      @each $orientation in $orientations {
+        @if $orientation == "h" {
+          $w: $w * 1.5;
+        } @else {
+          $h: $h * 1.5;
+        }
+
+        .#{$size}-#{$orientation}-#{$shape}-icon-container {
+          @include icon-container($h, $w);
+        }
+      }
+    } @else {
+      .#{$size}-#{$shape}-icon-container {
+        @include icon-container($h, $w);
+
+        @if $shape == "circ" {
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+}
+
 .full-icon {
   border-radius: inherit;
   height: 100%;
@@ -12,47 +62,4 @@
   border-radius: inherit;
   max-height: 100%;
   max-width: 100%;
-}
-
-$base_h: 100px;
-$base_w: 100px;
-
-@each $size in $sizes {
-  @each $shape in $shapes {
-    @each $orientation in $orientations {
-      $className: "#{$size}-#{$shape}-icon-container";
-      @if $shape == "rect" {
-        $className: "#{$size}-#{$orientation}-#{$shape}-icon-container";
-      }
-      .#{$className} {
-        align-items: center;
-        border-radius: 10%;
-        display: flex;
-        justify-content: center;
-
-        $h: $base_h * map-get($scale_factors, $size);
-        $w: $base_w * map-get($scale_factors, $size);
-
-        @if $shape == "circ" {
-          border-radius: 50%;
-        }
-
-        @if $shape == "rect" and $orientation == "h" {
-          $w: $w * 1.5;
-        }
-
-        @if $shape == "rect" and $orientation == "v" {
-          $h: $h * 1.5;
-        }
-
-        height: $h;
-        width: $w;
-      }
-
-      .#{$className}:hover {
-        background-color: silver;
-        cursor: pointer;
-      }
-    }
-  }
 }
