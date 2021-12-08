@@ -27,59 +27,50 @@
   max-width: 100%;
 }
 
-$base_height: 50px;
-$base_width: 50px;
+$base_h: 100px;
+$base_w: 100px;
 
 $shapes: "square", "circle", "horizontal", "vertical";
 
 @each $shape in $shapes {
   @each $size in $sizes {
     .icon-#{$size}-#{$shape} {
-      $height: $base_height;
-      $width: $base_width;
+      $h: $base_h;
+      $w: $base_w;
 
-      @if $size == "xxxs" {
-        $height: $height * 0.2;
-        $width: $width * 0.2;
-      } @else if $size == "xxs" {
-        $height: $height * 0.4;
-        $width: $width * 0.4;
-      } @else if $size == "xs" {
-        $height: $height * 0.6;
-        $width: $width * 0.6;
+      @if $size == "xs" {
+        $h: $h * 0.6;
+        $w: $w * 0.6;
       } @else if $size == "s" {
-        $height: $height * 0.8;
-        $width: $width * 0.8;
+        $h: $h * 0.8;
+        $w: $w * 0.8;
       } @else if $size == "m" {
-        $height: $height * 1;
-        $width: $width * 1;
+        $h: $h * 1;
+        $w: $w * 1;
       } @else if $size == "l" {
-        $height: $height * 1.2;
-        $width: $width * 1.2;
+        $h: $h * 1.2;
+        $w: $w * 1.2;
       } @else if $size == "xl" {
-        $height: $height * 1.4;
-        $width: $width * 1.4;
+        $h: $h * 1.4;
+        $w: $w * 1.4;
       } @else if $size == "xxl" {
-        $height: $height * 1.6;
-        $width: $width * 1.6;
-      } @else if $size == "xxxl" {
-        $height: $height * 1.8;
-        $width: $width * 1.8;
+        $h: $h * 1.6;
+        $w: $w * 1.6;
       }
 
       @if $shape == "horizontal" {
-        $width: $width * 1.5;
+        $w: $w * 1.5;
       }
 
       @if $shape == "vertical" {
-        $height: $height * 1.5;
+        $h: $h * 1.5;
       }
 
       @if $shape == "circle" {
         border-radius: 50%;
       }
-      height: $height;
-      width: $width;
+      height: $h;
+      width: $w;
     }
   }
 }
