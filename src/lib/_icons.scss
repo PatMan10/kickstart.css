@@ -20,36 +20,41 @@
   width: $w;
 }
 
-$base_h: 100px;
-$base_w: 100px;
+$base_h: 60px;
+$base_w: 60px;
 
-@each $size in $sizes {
-  $scale_factor: map-get($scale_factors, $size);
-  @each $shape in $shapes {
-    @if $shape == "rect" {
-      @each $orientation in $orientations {
+@each $response in $responses {
+  @each $size in $sizes {
+    $scale_factor: map-get($scale_factors, $size);
+    @if $response == "resp" {
+      $scale_factor: $scale_factor * 1.2;
+    }
+    @each $shape in $shapes {
+      @if $shape == "rectangle" {
+        @each $orientation in $orientations {
+          $h: $base_h * $scale_factor;
+          $w: $base_w * $scale_factor;
+
+          @if $orientation == "v" {
+            $h: $h * 1.5;
+          } @else {
+            $w: $w * 1.5;
+          }
+
+          .#{$response}-icon-container-#{$size}-#{$orientation}-#{$shape} {
+            @include icon-container($h, $w);
+          }
+        }
+      } @else {
         $h: $base_h * $scale_factor;
         $w: $base_w * $scale_factor;
 
-        @if $orientation == "v" {
-          $h: $h * 1.5;
-        } @else {
-          $w: $w * 1.5;
-        }
-
-        .#{$size}-#{$orientation}-#{$shape}-icon-container {
+        .#{$response}-icon-container-#{$size}-#{$shape} {
           @include icon-container($h, $w);
-        }
-      }
-    } @else {
-      $h: $base_h * $scale_factor;
-      $w: $base_w * $scale_factor;
 
-      .#{$size}-#{$shape}-icon-container {
-        @include icon-container($h, $w);
-
-        @if $shape == "circ" {
-          border-radius: 50%;
+          @if $shape == "circle" {
+            border-radius: 50%;
+          }
         }
       }
     }
