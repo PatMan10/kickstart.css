@@ -237,14 +237,108 @@
 /*
  * ^^^^^^^^^^^^^^^^ ICONS ^^^^^^^^^^^^^^^^
  */
-.resp-icon-container-xxl-v-rectangle, .resp-icon-container-xxl-h-rectangle, .resp-icon-container-xxl-circle, .resp-icon-container-xxl-square, .resp-icon-container-xl-v-rectangle, .resp-icon-container-xl-h-rectangle, .resp-icon-container-xl-circle, .resp-icon-container-xl-square, .resp-icon-container-l-v-rectangle, .resp-icon-container-l-h-rectangle, .resp-icon-container-l-circle, .resp-icon-container-l-square, .resp-icon-container-m-v-rectangle, .resp-icon-container-m-h-rectangle, .resp-icon-container-m-circle, .resp-icon-container-m-square, .resp-icon-container-s-v-rectangle, .resp-icon-container-s-h-rectangle, .resp-icon-container-s-circle, .resp-icon-container-s-square, .resp-icon-container-xs-v-rectangle, .resp-icon-container-xs-h-rectangle, .resp-icon-container-xs-circle, .resp-icon-container-xs-square, .stat-icon-container-xxl-v-rectangle, .stat-icon-container-xxl-h-rectangle, .stat-icon-container-xxl-circle, .stat-icon-container-xxl-square, .stat-icon-container-xl-v-rectangle, .stat-icon-container-xl-h-rectangle, .stat-icon-container-xl-circle, .stat-icon-container-xl-square, .stat-icon-container-l-v-rectangle, .stat-icon-container-l-h-rectangle, .stat-icon-container-l-circle, .stat-icon-container-l-square, .stat-icon-container-m-v-rectangle, .stat-icon-container-m-h-rectangle, .stat-icon-container-m-circle, .stat-icon-container-m-square, .stat-icon-container-s-v-rectangle, .stat-icon-container-s-h-rectangle, .stat-icon-container-s-circle, .stat-icon-container-s-square, .stat-icon-container-xs-v-rectangle, .stat-icon-container-xs-h-rectangle, .stat-icon-container-xs-circle, .stat-icon-container-xs-square {
+.resp-icon-container-xxl-v-rectangle,
+.resp-icon-container-xxl-h-rectangle,
+.resp-icon-container-xxl-circle,
+.resp-icon-container-xxl-square,
+.resp-icon-container-xl-v-rectangle,
+.resp-icon-container-xl-h-rectangle,
+.resp-icon-container-xl-circle,
+.resp-icon-container-xl-square,
+.resp-icon-container-l-v-rectangle,
+.resp-icon-container-l-h-rectangle,
+.resp-icon-container-l-circle,
+.resp-icon-container-l-square,
+.resp-icon-container-m-v-rectangle,
+.resp-icon-container-m-h-rectangle,
+.resp-icon-container-m-circle,
+.resp-icon-container-m-square,
+.resp-icon-container-s-v-rectangle,
+.resp-icon-container-s-h-rectangle,
+.resp-icon-container-s-circle,
+.resp-icon-container-s-square,
+.resp-icon-container-xs-v-rectangle,
+.resp-icon-container-xs-h-rectangle,
+.resp-icon-container-xs-circle,
+.resp-icon-container-xs-square,
+.stat-icon-container-xxl-v-rectangle,
+.stat-icon-container-xxl-h-rectangle,
+.stat-icon-container-xxl-circle,
+.stat-icon-container-xxl-square,
+.stat-icon-container-xl-v-rectangle,
+.stat-icon-container-xl-h-rectangle,
+.stat-icon-container-xl-circle,
+.stat-icon-container-xl-square,
+.stat-icon-container-l-v-rectangle,
+.stat-icon-container-l-h-rectangle,
+.stat-icon-container-l-circle,
+.stat-icon-container-l-square,
+.stat-icon-container-m-v-rectangle,
+.stat-icon-container-m-h-rectangle,
+.stat-icon-container-m-circle,
+.stat-icon-container-m-square,
+.stat-icon-container-s-v-rectangle,
+.stat-icon-container-s-h-rectangle,
+.stat-icon-container-s-circle,
+.stat-icon-container-s-square,
+.stat-icon-container-xs-v-rectangle,
+.stat-icon-container-xs-h-rectangle,
+.stat-icon-container-xs-circle,
+.stat-icon-container-xs-square {
   align-items: center;
   border-radius: 10%;
   display: flex;
   justify-content: center;
 }
 
-.resp-icon-container-xxl-v-rectangle:hover, .resp-icon-container-xxl-h-rectangle:hover, .resp-icon-container-xxl-circle:hover, .resp-icon-container-xxl-square:hover, .resp-icon-container-xl-v-rectangle:hover, .resp-icon-container-xl-h-rectangle:hover, .resp-icon-container-xl-circle:hover, .resp-icon-container-xl-square:hover, .resp-icon-container-l-v-rectangle:hover, .resp-icon-container-l-h-rectangle:hover, .resp-icon-container-l-circle:hover, .resp-icon-container-l-square:hover, .resp-icon-container-m-v-rectangle:hover, .resp-icon-container-m-h-rectangle:hover, .resp-icon-container-m-circle:hover, .resp-icon-container-m-square:hover, .resp-icon-container-s-v-rectangle:hover, .resp-icon-container-s-h-rectangle:hover, .resp-icon-container-s-circle:hover, .resp-icon-container-s-square:hover, .resp-icon-container-xs-v-rectangle:hover, .resp-icon-container-xs-h-rectangle:hover, .resp-icon-container-xs-circle:hover, .resp-icon-container-xs-square:hover, .stat-icon-container-xxl-v-rectangle:hover, .stat-icon-container-xxl-h-rectangle:hover, .stat-icon-container-xxl-circle:hover, .stat-icon-container-xxl-square:hover, .stat-icon-container-xl-v-rectangle:hover, .stat-icon-container-xl-h-rectangle:hover, .stat-icon-container-xl-circle:hover, .stat-icon-container-xl-square:hover, .stat-icon-container-l-v-rectangle:hover, .stat-icon-container-l-h-rectangle:hover, .stat-icon-container-l-circle:hover, .stat-icon-container-l-square:hover, .stat-icon-container-m-v-rectangle:hover, .stat-icon-container-m-h-rectangle:hover, .stat-icon-container-m-circle:hover, .stat-icon-container-m-square:hover, .stat-icon-container-s-v-rectangle:hover, .stat-icon-container-s-h-rectangle:hover, .stat-icon-container-s-circle:hover, .stat-icon-container-s-square:hover, .stat-icon-container-xs-v-rectangle:hover, .stat-icon-container-xs-h-rectangle:hover, .stat-icon-container-xs-circle:hover, .stat-icon-container-xs-square:hover {
+.resp-icon-container-xxl-v-rectangle:hover,
+.resp-icon-container-xxl-h-rectangle:hover,
+.resp-icon-container-xxl-circle:hover,
+.resp-icon-container-xxl-square:hover,
+.resp-icon-container-xl-v-rectangle:hover,
+.resp-icon-container-xl-h-rectangle:hover,
+.resp-icon-container-xl-circle:hover,
+.resp-icon-container-xl-square:hover,
+.resp-icon-container-l-v-rectangle:hover,
+.resp-icon-container-l-h-rectangle:hover,
+.resp-icon-container-l-circle:hover,
+.resp-icon-container-l-square:hover,
+.resp-icon-container-m-v-rectangle:hover,
+.resp-icon-container-m-h-rectangle:hover,
+.resp-icon-container-m-circle:hover,
+.resp-icon-container-m-square:hover,
+.resp-icon-container-s-v-rectangle:hover,
+.resp-icon-container-s-h-rectangle:hover,
+.resp-icon-container-s-circle:hover,
+.resp-icon-container-s-square:hover,
+.resp-icon-container-xs-v-rectangle:hover,
+.resp-icon-container-xs-h-rectangle:hover,
+.resp-icon-container-xs-circle:hover,
+.resp-icon-container-xs-square:hover,
+.stat-icon-container-xxl-v-rectangle:hover,
+.stat-icon-container-xxl-h-rectangle:hover,
+.stat-icon-container-xxl-circle:hover,
+.stat-icon-container-xxl-square:hover,
+.stat-icon-container-xl-v-rectangle:hover,
+.stat-icon-container-xl-h-rectangle:hover,
+.stat-icon-container-xl-circle:hover,
+.stat-icon-container-xl-square:hover,
+.stat-icon-container-l-v-rectangle:hover,
+.stat-icon-container-l-h-rectangle:hover,
+.stat-icon-container-l-circle:hover,
+.stat-icon-container-l-square:hover,
+.stat-icon-container-m-v-rectangle:hover,
+.stat-icon-container-m-h-rectangle:hover,
+.stat-icon-container-m-circle:hover,
+.stat-icon-container-m-square:hover,
+.stat-icon-container-s-v-rectangle:hover,
+.stat-icon-container-s-h-rectangle:hover,
+.stat-icon-container-s-circle:hover,
+.stat-icon-container-s-square:hover,
+.stat-icon-container-xs-v-rectangle:hover,
+.stat-icon-container-xs-h-rectangle:hover,
+.stat-icon-container-xs-circle:hover,
+.stat-icon-container-xs-square:hover {
   background-color: silver;
   cursor: pointer;
 }
@@ -376,24 +470,24 @@
 }
 
 .resp-icon-container-xs-square {
-  height: 43.2px;
-  width: 43.2px;
+  height: 39.6px;
+  width: 39.6px;
 }
 
 .resp-icon-container-xs-circle {
-  height: 43.2px;
-  width: 43.2px;
+  height: 39.6px;
+  width: 39.6px;
   border-radius: 50%;
 }
 
 .resp-icon-container-xs-h-rectangle {
-  height: 43.2px;
-  width: 64.8px;
+  height: 39.6px;
+  width: 59.4px;
 }
 
 .resp-icon-container-xs-v-rectangle {
-  height: 64.8px;
-  width: 43.2px;
+  height: 59.4px;
+  width: 39.6px;
 }
 
 .resp-icon-container-s-square {
@@ -418,87 +512,87 @@
 }
 
 .resp-icon-container-m-square {
-  height: 72px;
-  width: 72px;
+  height: 78px;
+  width: 78px;
 }
 
 .resp-icon-container-m-circle {
-  height: 72px;
-  width: 72px;
+  height: 78px;
+  width: 78px;
   border-radius: 50%;
 }
 
 .resp-icon-container-m-h-rectangle {
-  height: 72px;
-  width: 108px;
+  height: 78px;
+  width: 117px;
 }
 
 .resp-icon-container-m-v-rectangle {
-  height: 108px;
-  width: 72px;
+  height: 117px;
+  width: 78px;
 }
 
 .resp-icon-container-l-square {
-  height: 86.4px;
-  width: 86.4px;
+  height: 100.8px;
+  width: 100.8px;
 }
 
 .resp-icon-container-l-circle {
-  height: 86.4px;
-  width: 86.4px;
+  height: 100.8px;
+  width: 100.8px;
   border-radius: 50%;
 }
 
 .resp-icon-container-l-h-rectangle {
-  height: 86.4px;
-  width: 129.6px;
-}
-
-.resp-icon-container-l-v-rectangle {
-  height: 129.6px;
-  width: 86.4px;
-}
-
-.resp-icon-container-xl-square {
-  height: 100.8px;
-  width: 100.8px;
-}
-
-.resp-icon-container-xl-circle {
-  height: 100.8px;
-  width: 100.8px;
-  border-radius: 50%;
-}
-
-.resp-icon-container-xl-h-rectangle {
   height: 100.8px;
   width: 151.2px;
 }
 
-.resp-icon-container-xl-v-rectangle {
+.resp-icon-container-l-v-rectangle {
   height: 151.2px;
   width: 100.8px;
 }
 
+.resp-icon-container-xl-square {
+  height: 126px;
+  width: 126px;
+}
+
+.resp-icon-container-xl-circle {
+  height: 126px;
+  width: 126px;
+  border-radius: 50%;
+}
+
+.resp-icon-container-xl-h-rectangle {
+  height: 126px;
+  width: 189px;
+}
+
+.resp-icon-container-xl-v-rectangle {
+  height: 189px;
+  width: 126px;
+}
+
 .resp-icon-container-xxl-square {
-  height: 115.2px;
-  width: 115.2px;
+  height: 153.6px;
+  width: 153.6px;
 }
 
 .resp-icon-container-xxl-circle {
-  height: 115.2px;
-  width: 115.2px;
+  height: 153.6px;
+  width: 153.6px;
   border-radius: 50%;
 }
 
 .resp-icon-container-xxl-h-rectangle {
-  height: 115.2px;
-  width: 172.8px;
+  height: 153.6px;
+  width: 230.4px;
 }
 
 .resp-icon-container-xxl-v-rectangle {
-  height: 172.8px;
-  width: 115.2px;
+  height: 230.4px;
+  width: 153.6px;
 }
 
 .full-icon {
@@ -514,16 +608,110 @@
 }
 
 /*
- * ^^^^^^^^^^^^^^^^ ICONS ^^^^^^^^^^^^^^^^
+ * ^^^^^^^^^^^^^^^^ IMAGES ^^^^^^^^^^^^^^^^
  */
-.resp-image-container-xxl-v-rectangle, .resp-image-container-xxl-h-rectangle, .resp-image-container-xxl-circle, .resp-image-container-xxl-square, .resp-image-container-xl-v-rectangle, .resp-image-container-xl-h-rectangle, .resp-image-container-xl-circle, .resp-image-container-xl-square, .resp-image-container-l-v-rectangle, .resp-image-container-l-h-rectangle, .resp-image-container-l-circle, .resp-image-container-l-square, .resp-image-container-m-v-rectangle, .resp-image-container-m-h-rectangle, .resp-image-container-m-circle, .resp-image-container-m-square, .resp-image-container-s-v-rectangle, .resp-image-container-s-h-rectangle, .resp-image-container-s-circle, .resp-image-container-s-square, .resp-image-container-xs-v-rectangle, .resp-image-container-xs-h-rectangle, .resp-image-container-xs-circle, .resp-image-container-xs-square, .stat-image-container-xxl-v-rectangle, .stat-image-container-xxl-h-rectangle, .stat-image-container-xxl-circle, .stat-image-container-xxl-square, .stat-image-container-xl-v-rectangle, .stat-image-container-xl-h-rectangle, .stat-image-container-xl-circle, .stat-image-container-xl-square, .stat-image-container-l-v-rectangle, .stat-image-container-l-h-rectangle, .stat-image-container-l-circle, .stat-image-container-l-square, .stat-image-container-m-v-rectangle, .stat-image-container-m-h-rectangle, .stat-image-container-m-circle, .stat-image-container-m-square, .stat-image-container-s-v-rectangle, .stat-image-container-s-h-rectangle, .stat-image-container-s-circle, .stat-image-container-s-square, .stat-image-container-xs-v-rectangle, .stat-image-container-xs-h-rectangle, .stat-image-container-xs-circle, .stat-image-container-xs-square {
+.resp-image-container-xxl-v-rectangle,
+.resp-image-container-xxl-h-rectangle,
+.resp-image-container-xxl-circle,
+.resp-image-container-xxl-square,
+.resp-image-container-xl-v-rectangle,
+.resp-image-container-xl-h-rectangle,
+.resp-image-container-xl-circle,
+.resp-image-container-xl-square,
+.resp-image-container-l-v-rectangle,
+.resp-image-container-l-h-rectangle,
+.resp-image-container-l-circle,
+.resp-image-container-l-square,
+.resp-image-container-m-v-rectangle,
+.resp-image-container-m-h-rectangle,
+.resp-image-container-m-circle,
+.resp-image-container-m-square,
+.resp-image-container-s-v-rectangle,
+.resp-image-container-s-h-rectangle,
+.resp-image-container-s-circle,
+.resp-image-container-s-square,
+.resp-image-container-xs-v-rectangle,
+.resp-image-container-xs-h-rectangle,
+.resp-image-container-xs-circle,
+.resp-image-container-xs-square,
+.stat-image-container-xxl-v-rectangle,
+.stat-image-container-xxl-h-rectangle,
+.stat-image-container-xxl-circle,
+.stat-image-container-xxl-square,
+.stat-image-container-xl-v-rectangle,
+.stat-image-container-xl-h-rectangle,
+.stat-image-container-xl-circle,
+.stat-image-container-xl-square,
+.stat-image-container-l-v-rectangle,
+.stat-image-container-l-h-rectangle,
+.stat-image-container-l-circle,
+.stat-image-container-l-square,
+.stat-image-container-m-v-rectangle,
+.stat-image-container-m-h-rectangle,
+.stat-image-container-m-circle,
+.stat-image-container-m-square,
+.stat-image-container-s-v-rectangle,
+.stat-image-container-s-h-rectangle,
+.stat-image-container-s-circle,
+.stat-image-container-s-square,
+.stat-image-container-xs-v-rectangle,
+.stat-image-container-xs-h-rectangle,
+.stat-image-container-xs-circle,
+.stat-image-container-xs-square {
   align-items: center;
   border-radius: 10%;
   display: flex;
   justify-content: center;
 }
 
-.resp-image-container-xxl-v-rectangle:hover, .resp-image-container-xxl-h-rectangle:hover, .resp-image-container-xxl-circle:hover, .resp-image-container-xxl-square:hover, .resp-image-container-xl-v-rectangle:hover, .resp-image-container-xl-h-rectangle:hover, .resp-image-container-xl-circle:hover, .resp-image-container-xl-square:hover, .resp-image-container-l-v-rectangle:hover, .resp-image-container-l-h-rectangle:hover, .resp-image-container-l-circle:hover, .resp-image-container-l-square:hover, .resp-image-container-m-v-rectangle:hover, .resp-image-container-m-h-rectangle:hover, .resp-image-container-m-circle:hover, .resp-image-container-m-square:hover, .resp-image-container-s-v-rectangle:hover, .resp-image-container-s-h-rectangle:hover, .resp-image-container-s-circle:hover, .resp-image-container-s-square:hover, .resp-image-container-xs-v-rectangle:hover, .resp-image-container-xs-h-rectangle:hover, .resp-image-container-xs-circle:hover, .resp-image-container-xs-square:hover, .stat-image-container-xxl-v-rectangle:hover, .stat-image-container-xxl-h-rectangle:hover, .stat-image-container-xxl-circle:hover, .stat-image-container-xxl-square:hover, .stat-image-container-xl-v-rectangle:hover, .stat-image-container-xl-h-rectangle:hover, .stat-image-container-xl-circle:hover, .stat-image-container-xl-square:hover, .stat-image-container-l-v-rectangle:hover, .stat-image-container-l-h-rectangle:hover, .stat-image-container-l-circle:hover, .stat-image-container-l-square:hover, .stat-image-container-m-v-rectangle:hover, .stat-image-container-m-h-rectangle:hover, .stat-image-container-m-circle:hover, .stat-image-container-m-square:hover, .stat-image-container-s-v-rectangle:hover, .stat-image-container-s-h-rectangle:hover, .stat-image-container-s-circle:hover, .stat-image-container-s-square:hover, .stat-image-container-xs-v-rectangle:hover, .stat-image-container-xs-h-rectangle:hover, .stat-image-container-xs-circle:hover, .stat-image-container-xs-square:hover {
+.resp-image-container-xxl-v-rectangle:hover,
+.resp-image-container-xxl-h-rectangle:hover,
+.resp-image-container-xxl-circle:hover,
+.resp-image-container-xxl-square:hover,
+.resp-image-container-xl-v-rectangle:hover,
+.resp-image-container-xl-h-rectangle:hover,
+.resp-image-container-xl-circle:hover,
+.resp-image-container-xl-square:hover,
+.resp-image-container-l-v-rectangle:hover,
+.resp-image-container-l-h-rectangle:hover,
+.resp-image-container-l-circle:hover,
+.resp-image-container-l-square:hover,
+.resp-image-container-m-v-rectangle:hover,
+.resp-image-container-m-h-rectangle:hover,
+.resp-image-container-m-circle:hover,
+.resp-image-container-m-square:hover,
+.resp-image-container-s-v-rectangle:hover,
+.resp-image-container-s-h-rectangle:hover,
+.resp-image-container-s-circle:hover,
+.resp-image-container-s-square:hover,
+.resp-image-container-xs-v-rectangle:hover,
+.resp-image-container-xs-h-rectangle:hover,
+.resp-image-container-xs-circle:hover,
+.resp-image-container-xs-square:hover,
+.stat-image-container-xxl-v-rectangle:hover,
+.stat-image-container-xxl-h-rectangle:hover,
+.stat-image-container-xxl-circle:hover,
+.stat-image-container-xxl-square:hover,
+.stat-image-container-xl-v-rectangle:hover,
+.stat-image-container-xl-h-rectangle:hover,
+.stat-image-container-xl-circle:hover,
+.stat-image-container-xl-square:hover,
+.stat-image-container-l-v-rectangle:hover,
+.stat-image-container-l-h-rectangle:hover,
+.stat-image-container-l-circle:hover,
+.stat-image-container-l-square:hover,
+.stat-image-container-m-v-rectangle:hover,
+.stat-image-container-m-h-rectangle:hover,
+.stat-image-container-m-circle:hover,
+.stat-image-container-m-square:hover,
+.stat-image-container-s-v-rectangle:hover,
+.stat-image-container-s-h-rectangle:hover,
+.stat-image-container-s-circle:hover,
+.stat-image-container-s-square:hover,
+.stat-image-container-xs-v-rectangle:hover,
+.stat-image-container-xs-h-rectangle:hover,
+.stat-image-container-xs-circle:hover,
+.stat-image-container-xs-square:hover {
   background-color: silver;
   cursor: pointer;
 }
@@ -655,24 +843,24 @@
 }
 
 .resp-image-container-xs-square {
-  height: 115.2px;
-  width: 115.2px;
+  height: 105.6px;
+  width: 105.6px;
 }
 
 .resp-image-container-xs-circle {
-  height: 115.2px;
-  width: 115.2px;
+  height: 105.6px;
+  width: 105.6px;
   border-radius: 50%;
 }
 
 .resp-image-container-xs-h-rectangle {
-  height: 115.2px;
-  width: 172.8px;
+  height: 105.6px;
+  width: 158.4px;
 }
 
 .resp-image-container-xs-v-rectangle {
-  height: 172.8px;
-  width: 115.2px;
+  height: 158.4px;
+  width: 105.6px;
 }
 
 .resp-image-container-s-square {
@@ -697,87 +885,87 @@
 }
 
 .resp-image-container-m-square {
-  height: 192px;
-  width: 192px;
+  height: 208px;
+  width: 208px;
 }
 
 .resp-image-container-m-circle {
-  height: 192px;
-  width: 192px;
+  height: 208px;
+  width: 208px;
   border-radius: 50%;
 }
 
 .resp-image-container-m-h-rectangle {
-  height: 192px;
-  width: 288px;
+  height: 208px;
+  width: 312px;
 }
 
 .resp-image-container-m-v-rectangle {
-  height: 288px;
-  width: 192px;
+  height: 312px;
+  width: 208px;
 }
 
 .resp-image-container-l-square {
-  height: 230.4px;
-  width: 230.4px;
+  height: 268.8px;
+  width: 268.8px;
 }
 
 .resp-image-container-l-circle {
-  height: 230.4px;
-  width: 230.4px;
+  height: 268.8px;
+  width: 268.8px;
   border-radius: 50%;
 }
 
 .resp-image-container-l-h-rectangle {
-  height: 230.4px;
-  width: 345.6px;
-}
-
-.resp-image-container-l-v-rectangle {
-  height: 345.6px;
-  width: 230.4px;
-}
-
-.resp-image-container-xl-square {
-  height: 268.8px;
-  width: 268.8px;
-}
-
-.resp-image-container-xl-circle {
-  height: 268.8px;
-  width: 268.8px;
-  border-radius: 50%;
-}
-
-.resp-image-container-xl-h-rectangle {
   height: 268.8px;
   width: 403.2px;
 }
 
-.resp-image-container-xl-v-rectangle {
+.resp-image-container-l-v-rectangle {
   height: 403.2px;
   width: 268.8px;
 }
 
+.resp-image-container-xl-square {
+  height: 336px;
+  width: 336px;
+}
+
+.resp-image-container-xl-circle {
+  height: 336px;
+  width: 336px;
+  border-radius: 50%;
+}
+
+.resp-image-container-xl-h-rectangle {
+  height: 336px;
+  width: 504px;
+}
+
+.resp-image-container-xl-v-rectangle {
+  height: 504px;
+  width: 336px;
+}
+
 .resp-image-container-xxl-square {
-  height: 307.2px;
-  width: 307.2px;
+  height: 409.6px;
+  width: 409.6px;
 }
 
 .resp-image-container-xxl-circle {
-  height: 307.2px;
-  width: 307.2px;
+  height: 409.6px;
+  width: 409.6px;
   border-radius: 50%;
 }
 
 .resp-image-container-xxl-h-rectangle {
-  height: 307.2px;
-  width: 460.8px;
+  height: 409.6px;
+  width: 614.4px;
 }
 
 .resp-image-container-xxl-v-rectangle {
-  height: 460.8px;
-  width: 307.2px;
+  height: 614.4px;
+  width: 409.6px;
 }
 
 .full-image {

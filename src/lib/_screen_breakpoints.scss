@@ -16,6 +16,15 @@ $scale_factors: (
   xxl: 1.6,
 );
 
+$scale_multipliers: (
+  xs: 1.1,
+  s: 1.2,
+  m: 1.3,
+  l: 1.4,
+  xl: 1.5,
+  xxl: 1.6,
+);
+
 $body_bg_colors: (
   xs: red,
   s: orange,

@@ -1,5 +1,5 @@
 /*
- * ^^^^^^^^^^^^^^^^ ICONS ^^^^^^^^^^^^^^^^
+ * ^^^^^^^^^^^^^^^^ IMAGES ^^^^^^^^^^^^^^^^
  */
 %image-container {
   align-items: center;
@@ -26,7 +26,7 @@ $base_w: 160px;
   @each $size in $sizes {
     $scale_factor: map-get($scale_factors, $size);
     @if $response == "resp" {
-      $scale_factor: $scale_factor * 1.2;
+      $scale_factor: $scale_factor * map-get($scale_multipliers, $size);
     }
     @each $shape in $shapes {
       @if $shape == "rectangle" {
