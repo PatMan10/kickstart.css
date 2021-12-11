@@ -239,7 +239,7 @@
  */
 .resp-icon-container-xxl-v-rectangle, .resp-icon-container-xxl-h-rectangle, .resp-icon-container-xxl-circle, .resp-icon-container-xxl-square, .resp-icon-container-xl-v-rectangle, .resp-icon-container-xl-h-rectangle, .resp-icon-container-xl-circle, .resp-icon-container-xl-square, .resp-icon-container-l-v-rectangle, .resp-icon-container-l-h-rectangle, .resp-icon-container-l-circle, .resp-icon-container-l-square, .resp-icon-container-m-v-rectangle, .resp-icon-container-m-h-rectangle, .resp-icon-container-m-circle, .resp-icon-container-m-square, .resp-icon-container-s-v-rectangle, .resp-icon-container-s-h-rectangle, .resp-icon-container-s-circle, .resp-icon-container-s-square, .resp-icon-container-xs-v-rectangle, .resp-icon-container-xs-h-rectangle, .resp-icon-container-xs-circle, .resp-icon-container-xs-square, .stat-icon-container-xxl-v-rectangle, .stat-icon-container-xxl-h-rectangle, .stat-icon-container-xxl-circle, .stat-icon-container-xxl-square, .stat-icon-container-xl-v-rectangle, .stat-icon-container-xl-h-rectangle, .stat-icon-container-xl-circle, .stat-icon-container-xl-square, .stat-icon-container-l-v-rectangle, .stat-icon-container-l-h-rectangle, .stat-icon-container-l-circle, .stat-icon-container-l-square, .stat-icon-container-m-v-rectangle, .stat-icon-container-m-h-rectangle, .stat-icon-container-m-circle, .stat-icon-container-m-square, .stat-icon-container-s-v-rectangle, .stat-icon-container-s-h-rectangle, .stat-icon-container-s-circle, .stat-icon-container-s-square, .stat-icon-container-xs-v-rectangle, .stat-icon-container-xs-h-rectangle, .stat-icon-container-xs-circle, .stat-icon-container-xs-square {
   align-items: center;
-  border-radius: 10%;
+  border-radius: 5%;
   display: flex;
   justify-content: center;
 }
@@ -507,7 +507,7 @@
   width: 100%;
 }
 
-.responsive-icon {
+.resp-icon {
   border-radius: inherit;
   max-height: 100%;
   max-width: 100%;
@@ -518,266 +518,261 @@
  */
 .resp-image-container-xxl-v-rectangle, .resp-image-container-xxl-h-rectangle, .resp-image-container-xxl-circle, .resp-image-container-xxl-square, .resp-image-container-xl-v-rectangle, .resp-image-container-xl-h-rectangle, .resp-image-container-xl-circle, .resp-image-container-xl-square, .resp-image-container-l-v-rectangle, .resp-image-container-l-h-rectangle, .resp-image-container-l-circle, .resp-image-container-l-square, .resp-image-container-m-v-rectangle, .resp-image-container-m-h-rectangle, .resp-image-container-m-circle, .resp-image-container-m-square, .resp-image-container-s-v-rectangle, .resp-image-container-s-h-rectangle, .resp-image-container-s-circle, .resp-image-container-s-square, .resp-image-container-xs-v-rectangle, .resp-image-container-xs-h-rectangle, .resp-image-container-xs-circle, .resp-image-container-xs-square, .stat-image-container-xxl-v-rectangle, .stat-image-container-xxl-h-rectangle, .stat-image-container-xxl-circle, .stat-image-container-xxl-square, .stat-image-container-xl-v-rectangle, .stat-image-container-xl-h-rectangle, .stat-image-container-xl-circle, .stat-image-container-xl-square, .stat-image-container-l-v-rectangle, .stat-image-container-l-h-rectangle, .stat-image-container-l-circle, .stat-image-container-l-square, .stat-image-container-m-v-rectangle, .stat-image-container-m-h-rectangle, .stat-image-container-m-circle, .stat-image-container-m-square, .stat-image-container-s-v-rectangle, .stat-image-container-s-h-rectangle, .stat-image-container-s-circle, .stat-image-container-s-square, .stat-image-container-xs-v-rectangle, .stat-image-container-xs-h-rectangle, .stat-image-container-xs-circle, .stat-image-container-xs-square {
   align-items: center;
-  border-radius: 10%;
+  border-radius: 5%;
   display: flex;
   justify-content: center;
 }
 
-.resp-image-container-xxl-v-rectangle:hover, .resp-image-container-xxl-h-rectangle:hover, .resp-image-container-xxl-circle:hover, .resp-image-container-xxl-square:hover, .resp-image-container-xl-v-rectangle:hover, .resp-image-container-xl-h-rectangle:hover, .resp-image-container-xl-circle:hover, .resp-image-container-xl-square:hover, .resp-image-container-l-v-rectangle:hover, .resp-image-container-l-h-rectangle:hover, .resp-image-container-l-circle:hover, .resp-image-container-l-square:hover, .resp-image-container-m-v-rectangle:hover, .resp-image-container-m-h-rectangle:hover, .resp-image-container-m-circle:hover, .resp-image-container-m-square:hover, .resp-image-container-s-v-rectangle:hover, .resp-image-container-s-h-rectangle:hover, .resp-image-container-s-circle:hover, .resp-image-container-s-square:hover, .resp-image-container-xs-v-rectangle:hover, .resp-image-container-xs-h-rectangle:hover, .resp-image-container-xs-circle:hover, .resp-image-container-xs-square:hover, .stat-image-container-xxl-v-rectangle:hover, .stat-image-container-xxl-h-rectangle:hover, .stat-image-container-xxl-circle:hover, .stat-image-container-xxl-square:hover, .stat-image-container-xl-v-rectangle:hover, .stat-image-container-xl-h-rectangle:hover, .stat-image-container-xl-circle:hover, .stat-image-container-xl-square:hover, .stat-image-container-l-v-rectangle:hover, .stat-image-container-l-h-rectangle:hover, .stat-image-container-l-circle:hover, .stat-image-container-l-square:hover, .stat-image-container-m-v-rectangle:hover, .stat-image-container-m-h-rectangle:hover, .stat-image-container-m-circle:hover, .stat-image-container-m-square:hover, .stat-image-container-s-v-rectangle:hover, .stat-image-container-s-h-rectangle:hover, .stat-image-container-s-circle:hover, .stat-image-container-s-square:hover, .stat-image-container-xs-v-rectangle:hover, .stat-image-container-xs-h-rectangle:hover, .stat-image-container-xs-circle:hover, .stat-image-container-xs-square:hover {
-  background-color: silver;
-  cursor: pointer;
-}
-
 .stat-image-container-xs-square {
-  height: 90px;
-  width: 90px;
+  height: 120px;
+  width: 120px;
 }
 
 .stat-image-container-xs-circle {
-  height: 90px;
-  width: 90px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
 }
 
 .stat-image-container-xs-h-rectangle {
-  height: 90px;
-  width: 135px;
+  height: 120px;
+  width: 180px;
 }
 
 .stat-image-container-xs-v-rectangle {
-  height: 135px;
-  width: 90px;
+  height: 180px;
+  width: 120px;
 }
 
 .stat-image-container-s-square {
-  height: 120px;
-  width: 120px;
+  height: 160px;
+  width: 160px;
 }
 
 .stat-image-container-s-circle {
-  height: 120px;
-  width: 120px;
+  height: 160px;
+  width: 160px;
   border-radius: 50%;
 }
 
 .stat-image-container-s-h-rectangle {
-  height: 120px;
-  width: 180px;
+  height: 160px;
+  width: 240px;
 }
 
 .stat-image-container-s-v-rectangle {
-  height: 180px;
-  width: 120px;
+  height: 240px;
+  width: 160px;
 }
 
 .stat-image-container-m-square {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
 
 .stat-image-container-m-circle {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
 }
 
 .stat-image-container-m-h-rectangle {
-  height: 150px;
-  width: 225px;
+  height: 200px;
+  width: 300px;
 }
 
 .stat-image-container-m-v-rectangle {
-  height: 225px;
-  width: 150px;
+  height: 300px;
+  width: 200px;
 }
 
 .stat-image-container-l-square {
-  height: 180px;
-  width: 180px;
+  height: 240px;
+  width: 240px;
 }
 
 .stat-image-container-l-circle {
-  height: 180px;
-  width: 180px;
+  height: 240px;
+  width: 240px;
   border-radius: 50%;
 }
 
 .stat-image-container-l-h-rectangle {
-  height: 180px;
-  width: 270px;
-}
-
-.stat-image-container-l-v-rectangle {
-  height: 270px;
-  width: 180px;
-}
-
-.stat-image-container-xl-square {
-  height: 210px;
-  width: 210px;
-}
-
-.stat-image-container-xl-circle {
-  height: 210px;
-  width: 210px;
-  border-radius: 50%;
-}
-
-.stat-image-container-xl-h-rectangle {
-  height: 210px;
-  width: 315px;
-}
-
-.stat-image-container-xl-v-rectangle {
-  height: 315px;
-  width: 210px;
-}
-
-.stat-image-container-xxl-square {
-  height: 240px;
-  width: 240px;
-}
-
-.stat-image-container-xxl-circle {
-  height: 240px;
-  width: 240px;
-  border-radius: 50%;
-}
-
-.stat-image-container-xxl-h-rectangle {
   height: 240px;
   width: 360px;
 }
 
-.stat-image-container-xxl-v-rectangle {
+.stat-image-container-l-v-rectangle {
   height: 360px;
   width: 240px;
 }
 
+.stat-image-container-xl-square {
+  height: 280px;
+  width: 280px;
+}
+
+.stat-image-container-xl-circle {
+  height: 280px;
+  width: 280px;
+  border-radius: 50%;
+}
+
+.stat-image-container-xl-h-rectangle {
+  height: 280px;
+  width: 420px;
+}
+
+.stat-image-container-xl-v-rectangle {
+  height: 420px;
+  width: 280px;
+}
+
+.stat-image-container-xxl-square {
+  height: 320px;
+  width: 320px;
+}
+
+.stat-image-container-xxl-circle {
+  height: 320px;
+  width: 320px;
+  border-radius: 50%;
+}
+
+.stat-image-container-xxl-h-rectangle {
+  height: 320px;
+  width: 480px;
+}
+
+.stat-image-container-xxl-v-rectangle {
+  height: 480px;
+  width: 320px;
+}
+
 .resp-image-container-xs-square {
-  height: 99px;
-  width: 99px;
+  height: 132px;
+  width: 132px;
 }
 
 .resp-image-container-xs-circle {
-  height: 99px;
-  width: 99px;
+  height: 132px;
+  width: 132px;
   border-radius: 50%;
 }
 
 .resp-image-container-xs-h-rectangle {
-  height: 99px;
-  width: 148.5px;
+  height: 132px;
+  width: 198px;
 }
 
 .resp-image-container-xs-v-rectangle {
-  height: 148.5px;
-  width: 99px;
+  height: 198px;
+  width: 132px;
 }
 
 .resp-image-container-s-square {
-  height: 144px;
-  width: 144px;
+  height: 192px;
+  width: 192px;
 }
 
 .resp-image-container-s-circle {
-  height: 144px;
-  width: 144px;
+  height: 192px;
+  width: 192px;
   border-radius: 50%;
 }
 
 .resp-image-container-s-h-rectangle {
-  height: 144px;
-  width: 216px;
+  height: 192px;
+  width: 288px;
 }
 
 .resp-image-container-s-v-rectangle {
-  height: 216px;
-  width: 144px;
+  height: 288px;
+  width: 192px;
 }
 
 .resp-image-container-m-square {
-  height: 195px;
-  width: 195px;
+  height: 260px;
+  width: 260px;
 }
 
 .resp-image-container-m-circle {
-  height: 195px;
-  width: 195px;
+  height: 260px;
+  width: 260px;
   border-radius: 50%;
 }
 
 .resp-image-container-m-h-rectangle {
-  height: 195px;
-  width: 292.5px;
+  height: 260px;
+  width: 390px;
 }
 
 .resp-image-container-m-v-rectangle {
-  height: 292.5px;
-  width: 195px;
+  height: 390px;
+  width: 260px;
 }
 
 .resp-image-container-l-square {
-  height: 252px;
-  width: 252px;
+  height: 336px;
+  width: 336px;
 }
 
 .resp-image-container-l-circle {
-  height: 252px;
-  width: 252px;
+  height: 336px;
+  width: 336px;
   border-radius: 50%;
 }
 
 .resp-image-container-l-h-rectangle {
-  height: 252px;
-  width: 378px;
+  height: 336px;
+  width: 504px;
 }
 
 .resp-image-container-l-v-rectangle {
-  height: 378px;
-  width: 252px;
+  height: 504px;
+  width: 336px;
 }
 
 .resp-image-container-xl-square {
-  height: 315px;
-  width: 315px;
+  height: 420px;
+  width: 420px;
 }
 
 .resp-image-container-xl-circle {
-  height: 315px;
-  width: 315px;
+  height: 420px;
+  width: 420px;
   border-radius: 50%;
 }
 
 .resp-image-container-xl-h-rectangle {
-  height: 315px;
-  width: 472.5px;
+  height: 420px;
+  width: 630px;
 }
 
 .resp-image-container-xl-v-rectangle {
-  height: 472.5px;
-  width: 315px;
+  height: 630px;
+  width: 420px;
 }
 
 .resp-image-container-xxl-square {
-  height: 384px;
-  width: 384px;
+  height: 512px;
+  width: 512px;
 }
 
 .resp-image-container-xxl-circle {
-  height: 384px;
-  width: 384px;
+  height: 512px;
+  width: 512px;
   border-radius: 50%;
 }
 
 .resp-image-container-xxl-h-rectangle {
-  height: 384px;
-  width: 576px;
+  height: 512px;
+  width: 768px;
 }
 
 .resp-image-container-xxl-v-rectangle {
-  height: 576px;
-  width: 384px;
+  height: 768px;
+  width: 512px;
 }
 
 .full-image {
@@ -786,7 +781,7 @@
   width: 100%;
 }
 
-.responsive-image {
+.resp-image {
   border-radius: inherit;
   max-height: 100%;
   max-width: 100%;

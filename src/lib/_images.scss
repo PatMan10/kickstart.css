@@ -3,14 +3,9 @@
  */
 %image-container {
   align-items: center;
-  border-radius: 10%;
+  border-radius: 5%;
   display: flex;
   justify-content: center;
-}
-
-%image-container:hover {
-  background-color: silver;
-  cursor: pointer;
 }
 
 @mixin image-container($h, $w) {
@@ -19,8 +14,8 @@
   width: $w;
 }
 
-$base_h: 150px;
-$base_w: 150px;
+$base_h: 200px;
+$base_w: 200px;
 
 @each $response in $responses {
   @each $size in $sizes {
@@ -66,7 +61,7 @@ $base_w: 150px;
   width: 100%;
 }
 
-.responsive-image {
+.resp-image {
   border-radius: inherit;
   max-height: 100%;
   max-width: 100%;
