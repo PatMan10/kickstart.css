@@ -11,13 +11,27 @@
   flex-direction: column;
 }
 
+.flex-colR {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .flex-row {
   display: flex;
+}
+
+.flex-rowR {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 /*
  * --------------- align items ---------------
  */
+
+.flex-aiS {
+  align-items: flex-start;
+}
 
 .flex-aiC {
   align-items: center;
@@ -25,10 +39,6 @@
 
 .flex-aiE {
   align-items: flex-end;
-}
-
-.flex-aiS {
-  align-items: flex-start;
 }
 
 /*
@@ -41,10 +51,6 @@
 
 .flex-jcE {
   justify-content: flex-end;
-}
-
-.flex-jcS {
-  justify-content: flex-start;
 }
 
 .flex-jcSA {
@@ -62,6 +68,17 @@
 /*
  * --------------- combos ---------------
  */
+
+.flex-col-aiS {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-aiS {
+  align-items: flex-start;
+  display: flex;
+}
 
 .flex-col-aiC {
   align-items: center;
@@ -177,6 +194,10 @@
  * --------------- align self --------------- 
  */
 
+.flex-asS {
+  align-self: flex-start;
+}
+
 .flex-asC {
   align-self: center;
 }
@@ -185,16 +206,18 @@
   align-self: flex-end;
 }
 
-.flex-asS {
-  align-self: flex-start;
-}
-
 /*
- * --------------- grow --------------- 
+ * --------------- grow/shrink --------------- 
  */
 
-@for $i from 1 through 5 {
+@for $i from 1 through 10 {
   .flex-g#{$i} {
     flex-grow: #{$i};
+  }
+}
+
+@for $i from 1 through 10 {
+  .flex-s#{$i} {
+    flex-shrink: #{$i};
   }
 }

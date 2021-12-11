@@ -6,3 +6,8 @@
 h1 {
   font-size: 70px;
 }
+
+.box {
+  height: 100px;
+  width: 100px;
+}
