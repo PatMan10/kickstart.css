@@ -19,8 +19,8 @@
   width: $w;
 }
 
-$base_h: 160px;
-$base_w: 160px;
+$base_h: 150px;
+$base_w: 150px;
 
 @each $response in $responses {
   @each $size in $sizes {

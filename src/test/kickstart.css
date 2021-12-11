@@ -250,255 +250,255 @@
 }
 
 .stat-icon-container-xs-square {
-  height: 36px;
-  width: 36px;
+  height: 30px;
+  width: 30px;
 }
 
 .stat-icon-container-xs-circle {
-  height: 36px;
-  width: 36px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
 }
 
 .stat-icon-container-xs-h-rectangle {
-  height: 36px;
-  width: 54px;
+  height: 30px;
+  width: 45px;
 }
 
 .stat-icon-container-xs-v-rectangle {
-  height: 54px;
-  width: 36px;
+  height: 45px;
+  width: 30px;
 }
 
 .stat-icon-container-s-square {
-  height: 48px;
-  width: 48px;
+  height: 40px;
+  width: 40px;
 }
 
 .stat-icon-container-s-circle {
-  height: 48px;
-  width: 48px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 }
 
 .stat-icon-container-s-h-rectangle {
-  height: 48px;
-  width: 72px;
+  height: 40px;
+  width: 60px;
 }
 
 .stat-icon-container-s-v-rectangle {
-  height: 72px;
-  width: 48px;
+  height: 60px;
+  width: 40px;
 }
 
 .stat-icon-container-m-square {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
 }
 
 .stat-icon-container-m-circle {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   border-radius: 50%;
 }
 
 .stat-icon-container-m-h-rectangle {
-  height: 60px;
-  width: 90px;
+  height: 50px;
+  width: 75px;
 }
 
 .stat-icon-container-m-v-rectangle {
-  height: 90px;
-  width: 60px;
+  height: 75px;
+  width: 50px;
 }
 
 .stat-icon-container-l-square {
-  height: 72px;
-  width: 72px;
+  height: 60px;
+  width: 60px;
 }
 
 .stat-icon-container-l-circle {
-  height: 72px;
-  width: 72px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
 }
 
 .stat-icon-container-l-h-rectangle {
-  height: 72px;
-  width: 108px;
+  height: 60px;
+  width: 90px;
 }
 
 .stat-icon-container-l-v-rectangle {
-  height: 108px;
-  width: 72px;
+  height: 90px;
+  width: 60px;
 }
 
 .stat-icon-container-xl-square {
-  height: 84px;
-  width: 84px;
+  height: 70px;
+  width: 70px;
 }
 
 .stat-icon-container-xl-circle {
-  height: 84px;
-  width: 84px;
+  height: 70px;
+  width: 70px;
   border-radius: 50%;
 }
 
 .stat-icon-container-xl-h-rectangle {
-  height: 84px;
-  width: 126px;
+  height: 70px;
+  width: 105px;
 }
 
 .stat-icon-container-xl-v-rectangle {
-  height: 126px;
-  width: 84px;
+  height: 105px;
+  width: 70px;
 }
 
 .stat-icon-container-xxl-square {
-  height: 96px;
-  width: 96px;
+  height: 80px;
+  width: 80px;
 }
 
 .stat-icon-container-xxl-circle {
-  height: 96px;
-  width: 96px;
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
 }
 
 .stat-icon-container-xxl-h-rectangle {
-  height: 96px;
-  width: 144px;
+  height: 80px;
+  width: 120px;
 }
 
 .stat-icon-container-xxl-v-rectangle {
-  height: 144px;
-  width: 96px;
+  height: 120px;
+  width: 80px;
 }
 
 .resp-icon-container-xs-square {
-  height: 39.6px;
-  width: 39.6px;
+  height: 33px;
+  width: 33px;
 }
 
 .resp-icon-container-xs-circle {
-  height: 39.6px;
-  width: 39.6px;
+  height: 33px;
+  width: 33px;
   border-radius: 50%;
 }
 
 .resp-icon-container-xs-h-rectangle {
-  height: 39.6px;
-  width: 59.4px;
+  height: 33px;
+  width: 49.5px;
 }
 
 .resp-icon-container-xs-v-rectangle {
-  height: 59.4px;
-  width: 39.6px;
+  height: 49.5px;
+  width: 33px;
 }
 
 .resp-icon-container-s-square {
-  height: 57.6px;
-  width: 57.6px;
+  height: 48px;
+  width: 48px;
 }
 
 .resp-icon-container-s-circle {
-  height: 57.6px;
-  width: 57.6px;
+  height: 48px;
+  width: 48px;
   border-radius: 50%;
 }
 
 .resp-icon-container-s-h-rectangle {
-  height: 57.6px;
-  width: 86.4px;
+  height: 48px;
+  width: 72px;
 }
 
 .resp-icon-container-s-v-rectangle {
-  height: 86.4px;
-  width: 57.6px;
+  height: 72px;
+  width: 48px;
 }
 
 .resp-icon-container-m-square {
-  height: 78px;
-  width: 78px;
+  height: 65px;
+  width: 65px;
 }
 
 .resp-icon-container-m-circle {
-  height: 78px;
-  width: 78px;
+  height: 65px;
+  width: 65px;
   border-radius: 50%;
 }
 
 .resp-icon-container-m-h-rectangle {
-  height: 78px;
-  width: 117px;
+  height: 65px;
+  width: 97.5px;
 }
 
 .resp-icon-container-m-v-rectangle {
-  height: 117px;
-  width: 78px;
+  height: 97.5px;
+  width: 65px;
 }
 
 .resp-icon-container-l-square {
-  height: 100.8px;
-  width: 100.8px;
+  height: 84px;
+  width: 84px;
 }
 
 .resp-icon-container-l-circle {
-  height: 100.8px;
-  width: 100.8px;
+  height: 84px;
+  width: 84px;
   border-radius: 50%;
 }
 
 .resp-icon-container-l-h-rectangle {
-  height: 100.8px;
-  width: 151.2px;
+  height: 84px;
+  width: 126px;
 }
 
 .resp-icon-container-l-v-rectangle {
-  height: 151.2px;
-  width: 100.8px;
+  height: 126px;
+  width: 84px;
 }
 
 .resp-icon-container-xl-square {
-  height: 126px;
-  width: 126px;
+  height: 105px;
+  width: 105px;
 }
 
 .resp-icon-container-xl-circle {
-  height: 126px;
-  width: 126px;
+  height: 105px;
+  width: 105px;
   border-radius: 50%;
 }
 
 .resp-icon-container-xl-h-rectangle {
-  height: 126px;
-  width: 189px;
+  height: 105px;
+  width: 157.5px;
 }
 
 .resp-icon-container-xl-v-rectangle {
-  height: 189px;
-  width: 126px;
+  height: 157.5px;
+  width: 105px;
 }
 
 .resp-icon-container-xxl-square {
-  height: 153.6px;
-  width: 153.6px;
+  height: 128px;
+  width: 128px;
 }
 
 .resp-icon-container-xxl-circle {
-  height: 153.6px;
-  width: 153.6px;
+  height: 128px;
+  width: 128px;
   border-radius: 50%;
 }
 
 .resp-icon-container-xxl-h-rectangle {
-  height: 153.6px;
-  width: 230.4px;
+  height: 128px;
+  width: 192px;
 }
 
 .resp-icon-container-xxl-v-rectangle {
-  height: 230.4px;
-  width: 153.6px;
+  height: 192px;
+  width: 128px;
 }
 
 .full-icon {
@@ -529,255 +529,255 @@
 }
 
 .stat-image-container-xs-square {
-  height: 96px;
-  width: 96px;
+  height: 90px;
+  width: 90px;
 }
 
 .stat-image-container-xs-circle {
-  height: 96px;
-  width: 96px;
+  height: 90px;
+  width: 90px;
   border-radius: 50%;
 }
 
 .stat-image-container-xs-h-rectangle {
-  height: 96px;
-  width: 144px;
+  height: 90px;
+  width: 135px;
 }
 
 .stat-image-container-xs-v-rectangle {
-  height: 144px;
-  width: 96px;
+  height: 135px;
+  width: 90px;
 }
 
 .stat-image-container-s-square {
-  height: 128px;
-  width: 128px;
+  height: 120px;
+  width: 120px;
 }
 
 .stat-image-container-s-circle {
-  height: 128px;
-  width: 128px;
+  height: 120px;
+  width: 120px;
   border-radius: 50%;
 }
 
 .stat-image-container-s-h-rectangle {
-  height: 128px;
-  width: 192px;
+  height: 120px;
+  width: 180px;
 }
 
 .stat-image-container-s-v-rectangle {
-  height: 192px;
-  width: 128px;
+  height: 180px;
+  width: 120px;
 }
 
 .stat-image-container-m-square {
-  height: 160px;
-  width: 160px;
+  height: 150px;
+  width: 150px;
 }
 
 .stat-image-container-m-circle {
-  height: 160px;
-  width: 160px;
+  height: 150px;
+  width: 150px;
   border-radius: 50%;
 }
 
 .stat-image-container-m-h-rectangle {
-  height: 160px;
-  width: 240px;
+  height: 150px;
+  width: 225px;
 }
 
 .stat-image-container-m-v-rectangle {
-  height: 240px;
-  width: 160px;
+  height: 225px;
+  width: 150px;
 }
 
 .stat-image-container-l-square {
-  height: 192px;
-  width: 192px;
+  height: 180px;
+  width: 180px;
 }
 
 .stat-image-container-l-circle {
-  height: 192px;
-  width: 192px;
+  height: 180px;
+  width: 180px;
   border-radius: 50%;
 }
 
 .stat-image-container-l-h-rectangle {
-  height: 192px;
-  width: 288px;
+  height: 180px;
+  width: 270px;
 }
 
 .stat-image-container-l-v-rectangle {
-  height: 288px;
-  width: 192px;
+  height: 270px;
+  width: 180px;
 }
 
 .stat-image-container-xl-square {
-  height: 224px;
-  width: 224px;
+  height: 210px;
+  width: 210px;
 }
 
 .stat-image-container-xl-circle {
-  height: 224px;
-  width: 224px;
+  height: 210px;
+  width: 210px;
   border-radius: 50%;
 }
 
 .stat-image-container-xl-h-rectangle {
-  height: 224px;
-  width: 336px;
+  height: 210px;
+  width: 315px;
 }
 
 .stat-image-container-xl-v-rectangle {
-  height: 336px;
-  width: 224px;
+  height: 315px;
+  width: 210px;
 }
 
 .stat-image-container-xxl-square {
-  height: 256px;
-  width: 256px;
+  height: 240px;
+  width: 240px;
 }
 
 .stat-image-container-xxl-circle {
-  height: 256px;
-  width: 256px;
+  height: 240px;
+  width: 240px;
   border-radius: 50%;
 }
 
 .stat-image-container-xxl-h-rectangle {
-  height: 256px;
-  width: 384px;
+  height: 240px;
+  width: 360px;
 }
 
 .stat-image-container-xxl-v-rectangle {
-  height: 384px;
-  width: 256px;
+  height: 360px;
+  width: 240px;
 }
 
 .resp-image-container-xs-square {
-  height: 105.6px;
-  width: 105.6px;
+  height: 99px;
+  width: 99px;
 }
 
 .resp-image-container-xs-circle {
-  height: 105.6px;
-  width: 105.6px;
+  height: 99px;
+  width: 99px;
   border-radius: 50%;
 }
 
 .resp-image-container-xs-h-rectangle {
-  height: 105.6px;
-  width: 158.4px;
+  height: 99px;
+  width: 148.5px;
 }
 
 .resp-image-container-xs-v-rectangle {
-  height: 158.4px;
-  width: 105.6px;
+  height: 148.5px;
+  width: 99px;
 }
 
 .resp-image-container-s-square {
-  height: 153.6px;
-  width: 153.6px;
+  height: 144px;
+  width: 144px;
 }
 
 .resp-image-container-s-circle {
-  height: 153.6px;
-  width: 153.6px;
+  height: 144px;
+  width: 144px;
   border-radius: 50%;
 }
 
 .resp-image-container-s-h-rectangle {
-  height: 153.6px;
-  width: 230.4px;
+  height: 144px;
+  width: 216px;
 }
 
 .resp-image-container-s-v-rectangle {
-  height: 230.4px;
-  width: 153.6px;
+  height: 216px;
+  width: 144px;
 }
 
 .resp-image-container-m-square {
-  height: 208px;
-  width: 208px;
+  height: 195px;
+  width: 195px;
 }
 
 .resp-image-container-m-circle {
-  height: 208px;
-  width: 208px;
+  height: 195px;
+  width: 195px;
   border-radius: 50%;
 }
 
 .resp-image-container-m-h-rectangle {
-  height: 208px;
-  width: 312px;
+  height: 195px;
+  width: 292.5px;
 }
 
 .resp-image-container-m-v-rectangle {
-  height: 312px;
-  width: 208px;
+  height: 292.5px;
+  width: 195px;
 }
 
 .resp-image-container-l-square {
-  height: 268.8px;
-  width: 268.8px;
+  height: 252px;
+  width: 252px;
 }
 
 .resp-image-container-l-circle {
-  height: 268.8px;
-  width: 268.8px;
+  height: 252px;
+  width: 252px;
   border-radius: 50%;
 }
 
 .resp-image-container-l-h-rectangle {
-  height: 268.8px;
-  width: 403.2px;
+  height: 252px;
+  width: 378px;
 }
 
 .resp-image-container-l-v-rectangle {
-  height: 403.2px;
-  width: 268.8px;
+  height: 378px;
+  width: 252px;
 }
 
 .resp-image-container-xl-square {
-  height: 336px;
-  width: 336px;
+  height: 315px;
+  width: 315px;
 }
 
 .resp-image-container-xl-circle {
-  height: 336px;
-  width: 336px;
+  height: 315px;
+  width: 315px;
   border-radius: 50%;
 }
 
 .resp-image-container-xl-h-rectangle {
-  height: 336px;
-  width: 504px;
+  height: 315px;
+  width: 472.5px;
 }
 
 .resp-image-container-xl-v-rectangle {
-  height: 504px;
-  width: 336px;
+  height: 472.5px;
+  width: 315px;
 }
 
 .resp-image-container-xxl-square {
-  height: 409.6px;
-  width: 409.6px;
+  height: 384px;
+  width: 384px;
 }
 
 .resp-image-container-xxl-circle {
-  height: 409.6px;
-  width: 409.6px;
+  height: 384px;
+  width: 384px;
   border-radius: 50%;
 }
 
 .resp-image-container-xxl-h-rectangle {
-  height: 409.6px;
-  width: 614.4px;
+  height: 384px;
+  width: 576px;
 }
 
 .resp-image-container-xxl-v-rectangle {
-  height: 614.4px;
-  width: 409.6px;
+  height: 576px;
+  width: 384px;
 }
 
 .full-image {
