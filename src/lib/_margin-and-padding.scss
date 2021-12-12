@@ -1,4 +1,27 @@
-$sides: "x", "y", "t", "r", "b", "l";
+@function getPropNames($prop, $side) {
+  @if ($side == "") {
+    @return "#{$prop}";
+  }
+  @if ($side == "x") {
+    @return "#{$prop}-right""#{$prop}-left";
+  }
+  @if ($side == "y") {
+    @return "#{$prop}-top""#{$prop}-bottom";
+  }
+  @if ($side == "t") {
+    @return "#{$prop}-top";
+  }
+  @if ($side == "r") {
+    @return "#{$prop}-right";
+  }
+  @if ($side == "b") {
+    @return "#{$prop}-bottom";
+  }
+  @if ($side == "l") {
+    @return "#{$prop}-left";
+  }
+}
+$sides: "", "x", "y", "t", "r", "b", "l";
 
 /*
  * ^^^^^^^^^^^^^^^^ MARGIN ^^^^^^^^^^^^^^^^ 
@@ -9,11 +32,15 @@ $sides: "x", "y", "t", "r", "b", "l";
   @for $i from 0 through 5 {
     @if $i == 0 {
       .m#{$side}-auto {
-        margin: auto;
+        @each $propName in getPropNames("margin", $side) {
+          #{$propName}: auto;
+        }
       }
     }
     .m#{$side}-#{$i} {
-      margin: #{$value}rem;
+      @each $propName in getPropNames("margin", $side) {
+        #{$propName}: #{$value}rem;
+      }
     }
     @if $value == 0 {
       $value: $value + 0.5;
@@ -38,11 +65,15 @@ $sides: "x", "y", "t", "r", "b", "l";
   @for $i from 0 through 5 {
     @if $i == 0 {
       .p#{$side}-auto {
-        margin: auto;
+        @each $propName in getPropNames("padding", $side) {
+          #{$propName}: auto;
+        }
       }
     }
     .p#{$side}-#{$i} {
-      margin: #{$value}rem;
+      @each $propName in getPropNames("padding", $side) {
+        #{$propName}: #{$value}rem;
+      }
     }
     @if $value == 0 {
       $value: $value + 0.5;
