@@ -1,57 +1,59 @@
-@function getClassNumber($i) {
-  @if $i < 10 {
-    @return "0" + $i;
-  } @else if $i % 10 == 0 {
-    @return calc($i / 10) + "0";
-  } @else {
-    @return $i;
-  }
-}
+$sides: "x", "y", "t", "r", "b", "l";
 
 /*
  * ^^^^^^^^^^^^^^^^ MARGIN ^^^^^^^^^^^^^^^^ 
  */
-
-/*
- * ----------------  margin: em ---------------- 
- */
-
-@for $i from 1 through 20 {
-  .m-#{getClassNumber($i)}e {
-    margin: #{calc($i / 10)}em;
+@each $side in $sides {
+  $value: 0;
+  $multiplier: 1;
+  @for $i from 0 through 5 {
+    @if $i == 0 {
+      .m#{$side}-auto {
+        margin: auto;
+      }
+    }
+    .m#{$side}-#{$i} {
+      margin: #{$value}rem;
+    }
+    @if $value == 0 {
+      $value: $value + 0.5;
+    } @else if $value < 1 {
+      $value: $value + 0.25;
+    } @else {
+      $multiplier: 2;
+      @if $i == 4 {
+        $value: 2;
+      }
+    }
+    $value: $value * $multiplier;
   }
 }
 
 /*
- * ----------------  margin: rem ---------------- 
+ * ^^^^^^^^^^^^^^^^ PADDING ^^^^^^^^^^^^^^^^ 
  */
-
-@for $i from 1 through 20 {
-  .m-#{getClassNumber($i)}r {
-    margin: #{calc($i / 10)}rem;
-  }
-}
-
-/*
- * ^^^^^^^^^^^^^^^^ PADDING ^^^^^^^^^^^^^^^^  
- */
-
-/*
- * ----------------  padding: em ---------------- 
- */
-
-@for $i from 1 through 20 {
-  .p-#{getClassNumber($i)}e {
-    padding: #{calc($i / 10)}em;
-  }
-}
-
-/*
- * ---------------- padding: rem ---------------- 
- */
-
-@for $i from 1 through 20 {
-  .p-#{getClassNumber($i)}r {
-    padding: #{calc($i / 10)}rem;
+@each $side in $sides {
+  $value: 0;
+  $multiplier: 1;
+  @for $i from 0 through 5 {
+    @if $i == 0 {
+      .p#{$side}-auto {
+        margin: auto;
+      }
+    }
+    .p#{$side}-#{$i} {
+      margin: #{$value}rem;
+    }
+    @if $value == 0 {
+      $value: $value + 0.5;
+    } @else if $value < 1 {
+      $value: $value + 0.25;
+    } @else {
+      $multiplier: 2;
+      @if $i == 4 {
+        $value: 2;
+      }
+    }
+    $value: $value * $multiplier;
   }
 }

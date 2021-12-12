@@ -2485,339 +2485,343 @@
 /*
  * ^^^^^^^^^^^^^^^^ MARGIN ^^^^^^^^^^^^^^^^ 
  */
-/*
- * ----------------  margin: em ---------------- 
- */
-.m-01e {
-  margin: 0.1em;
+.mx-auto {
+  margin: auto;
 }
 
-.m-02e {
-  margin: 0.2em;
+.mx-0 {
+  margin: 0rem;
 }
 
-.m-03e {
-  margin: 0.3em;
-}
-
-.m-04e {
-  margin: 0.4em;
-}
-
-.m-05e {
-  margin: 0.5em;
-}
-
-.m-06e {
-  margin: 0.6em;
-}
-
-.m-07e {
-  margin: 0.7em;
-}
-
-.m-08e {
-  margin: 0.8em;
-}
-
-.m-09e {
-  margin: 0.9em;
-}
-
-.m-10e {
-  margin: 1em;
-}
-
-.m-11e {
-  margin: 1.1em;
-}
-
-.m-12e {
-  margin: 1.2em;
-}
-
-.m-13e {
-  margin: 1.3em;
-}
-
-.m-14e {
-  margin: 1.4em;
-}
-
-.m-15e {
-  margin: 1.5em;
-}
-
-.m-16e {
-  margin: 1.6em;
-}
-
-.m-17e {
-  margin: 1.7em;
-}
-
-.m-18e {
-  margin: 1.8em;
-}
-
-.m-19e {
-  margin: 1.9em;
-}
-
-.m-20e {
-  margin: 2em;
-}
-
-/*
- * ----------------  margin: rem ---------------- 
- */
-.m-01r {
-  margin: 0.1rem;
-}
-
-.m-02r {
-  margin: 0.2rem;
-}
-
-.m-03r {
-  margin: 0.3rem;
-}
-
-.m-04r {
-  margin: 0.4rem;
-}
-
-.m-05r {
+.mx-1 {
   margin: 0.5rem;
 }
 
-.m-06r {
-  margin: 0.6rem;
+.mx-2 {
+  margin: 0.75rem;
 }
 
-.m-07r {
-  margin: 0.7rem;
-}
-
-.m-08r {
-  margin: 0.8rem;
-}
-
-.m-09r {
-  margin: 0.9rem;
-}
-
-.m-10r {
+.mx-3 {
   margin: 1rem;
 }
 
-.m-11r {
-  margin: 1.1rem;
-}
-
-.m-12r {
-  margin: 1.2rem;
-}
-
-.m-13r {
-  margin: 1.3rem;
-}
-
-.m-14r {
-  margin: 1.4rem;
-}
-
-.m-15r {
-  margin: 1.5rem;
-}
-
-.m-16r {
-  margin: 1.6rem;
-}
-
-.m-17r {
-  margin: 1.7rem;
-}
-
-.m-18r {
-  margin: 1.8rem;
-}
-
-.m-19r {
-  margin: 1.9rem;
-}
-
-.m-20r {
+.mx-4 {
   margin: 2rem;
 }
 
+.mx-5 {
+  margin: 4rem;
+}
+
+.my-auto {
+  margin: auto;
+}
+
+.my-0 {
+  margin: 0rem;
+}
+
+.my-1 {
+  margin: 0.5rem;
+}
+
+.my-2 {
+  margin: 0.75rem;
+}
+
+.my-3 {
+  margin: 1rem;
+}
+
+.my-4 {
+  margin: 2rem;
+}
+
+.my-5 {
+  margin: 4rem;
+}
+
+.mt-auto {
+  margin: auto;
+}
+
+.mt-0 {
+  margin: 0rem;
+}
+
+.mt-1 {
+  margin: 0.5rem;
+}
+
+.mt-2 {
+  margin: 0.75rem;
+}
+
+.mt-3 {
+  margin: 1rem;
+}
+
+.mt-4 {
+  margin: 2rem;
+}
+
+.mt-5 {
+  margin: 4rem;
+}
+
+.mr-auto {
+  margin: auto;
+}
+
+.mr-0 {
+  margin: 0rem;
+}
+
+.mr-1 {
+  margin: 0.5rem;
+}
+
+.mr-2 {
+  margin: 0.75rem;
+}
+
+.mr-3 {
+  margin: 1rem;
+}
+
+.mr-4 {
+  margin: 2rem;
+}
+
+.mr-5 {
+  margin: 4rem;
+}
+
+.mb-auto {
+  margin: auto;
+}
+
+.mb-0 {
+  margin: 0rem;
+}
+
+.mb-1 {
+  margin: 0.5rem;
+}
+
+.mb-2 {
+  margin: 0.75rem;
+}
+
+.mb-3 {
+  margin: 1rem;
+}
+
+.mb-4 {
+  margin: 2rem;
+}
+
+.mb-5 {
+  margin: 4rem;
+}
+
+.ml-auto {
+  margin: auto;
+}
+
+.ml-0 {
+  margin: 0rem;
+}
+
+.ml-1 {
+  margin: 0.5rem;
+}
+
+.ml-2 {
+  margin: 0.75rem;
+}
+
+.ml-3 {
+  margin: 1rem;
+}
+
+.ml-4 {
+  margin: 2rem;
+}
+
+.ml-5 {
+  margin: 4rem;
+}
+
 /*
- * ^^^^^^^^^^^^^^^^ PADDING ^^^^^^^^^^^^^^^^  
+ * ^^^^^^^^^^^^^^^^ PADDING ^^^^^^^^^^^^^^^^ 
  */
-/*
- * ----------------  padding: em ---------------- 
- */
-.p-01e {
-  padding: 0.1em;
+.px-auto {
+  margin: auto;
 }
 
-.p-02e {
-  padding: 0.2em;
+.px-0 {
+  margin: 0rem;
 }
 
-.p-03e {
-  padding: 0.3em;
+.px-1 {
+  margin: 0.5rem;
 }
 
-.p-04e {
-  padding: 0.4em;
+.px-2 {
+  margin: 0.75rem;
 }
 
-.p-05e {
-  padding: 0.5em;
+.px-3 {
+  margin: 1rem;
 }
 
-.p-06e {
-  padding: 0.6em;
+.px-4 {
+  margin: 2rem;
 }
 
-.p-07e {
-  padding: 0.7em;
+.px-5 {
+  margin: 4rem;
 }
 
-.p-08e {
-  padding: 0.8em;
+.py-auto {
+  margin: auto;
 }
 
-.p-09e {
-  padding: 0.9em;
+.py-0 {
+  margin: 0rem;
 }
 
-.p-10e {
-  padding: 1em;
+.py-1 {
+  margin: 0.5rem;
 }
 
-.p-11e {
-  padding: 1.1em;
+.py-2 {
+  margin: 0.75rem;
 }
 
-.p-12e {
-  padding: 1.2em;
+.py-3 {
+  margin: 1rem;
 }
 
-.p-13e {
-  padding: 1.3em;
+.py-4 {
+  margin: 2rem;
 }
 
-.p-14e {
-  padding: 1.4em;
+.py-5 {
+  margin: 4rem;
 }
 
-.p-15e {
-  padding: 1.5em;
+.pt-auto {
+  margin: auto;
 }
 
-.p-16e {
-  padding: 1.6em;
+.pt-0 {
+  margin: 0rem;
 }
 
-.p-17e {
-  padding: 1.7em;
+.pt-1 {
+  margin: 0.5rem;
 }
 
-.p-18e {
-  padding: 1.8em;
+.pt-2 {
+  margin: 0.75rem;
 }
 
-.p-19e {
-  padding: 1.9em;
+.pt-3 {
+  margin: 1rem;
 }
 
-.p-20e {
-  padding: 2em;
+.pt-4 {
+  margin: 2rem;
 }
 
-/*
- * ---------------- padding: rem ---------------- 
- */
-.p-01r {
-  padding: 0.1rem;
+.pt-5 {
+  margin: 4rem;
 }
 
-.p-02r {
-  padding: 0.2rem;
+.pr-auto {
+  margin: auto;
 }
 
-.p-03r {
-  padding: 0.3rem;
+.pr-0 {
+  margin: 0rem;
 }
 
-.p-04r {
-  padding: 0.4rem;
+.pr-1 {
+  margin: 0.5rem;
 }
 
-.p-05r {
-  padding: 0.5rem;
+.pr-2 {
+  margin: 0.75rem;
 }
 
-.p-06r {
-  padding: 0.6rem;
+.pr-3 {
+  margin: 1rem;
 }
 
-.p-07r {
-  padding: 0.7rem;
+.pr-4 {
+  margin: 2rem;
 }
 
-.p-08r {
-  padding: 0.8rem;
+.pr-5 {
+  margin: 4rem;
 }
 
-.p-09r {
-  padding: 0.9rem;
+.pb-auto {
+  margin: auto;
 }
 
-.p-10r {
-  padding: 1rem;
+.pb-0 {
+  margin: 0rem;
 }
 
-.p-11r {
-  padding: 1.1rem;
+.pb-1 {
+  margin: 0.5rem;
 }
 
-.p-12r {
-  padding: 1.2rem;
+.pb-2 {
+  margin: 0.75rem;
 }
 
-.p-13r {
-  padding: 1.3rem;
+.pb-3 {
+  margin: 1rem;
 }
 
-.p-14r {
-  padding: 1.4rem;
+.pb-4 {
+  margin: 2rem;
 }
 
-.p-15r {
-  padding: 1.5rem;
+.pb-5 {
+  margin: 4rem;
 }
 
-.p-16r {
-  padding: 1.6rem;
+.pl-auto {
+  margin: auto;
 }
 
-.p-17r {
-  padding: 1.7rem;
+.pl-0 {
+  margin: 0rem;
 }
 
-.p-18r {
-  padding: 1.8rem;
+.pl-1 {
+  margin: 0.5rem;
 }
 
-.p-19r {
-  padding: 1.9rem;
+.pl-2 {
+  margin: 0.75rem;
 }
 
-.p-20r {
-  padding: 2rem;
+.pl-3 {
+  margin: 1rem;
+}
+
+.pl-4 {
+  margin: 2rem;
+}
+
+.pl-5 {
+  margin: 4rem;
 }
 
 /*
