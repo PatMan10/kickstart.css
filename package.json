@@ -1,6 +1,6 @@
 {
   "name": "@patman10/kickstart.css",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "A css file with some utility classes for flex-box, heights, widths and more.",
   "repository": "git+https://github.com/PatMan10/kickstart.css.git",
   "keywords": [
@@ -15,9 +15,12 @@
     "url": "https://github.com/PatMan10/kickstart.css/issues"
   },
   "homepage": "https://github.com/PatMan10/kickstart.css#readme",
-  "main": "index.js",
   "private": false,
   "devDependencies": {
     "sass": "^1.44.0"
+  },
+  "scripts": {
+    "compile": "node ./node_modules/sass/sass.js --style=compressed  ./src/lib/kickstart.scss ./dist/kickstart.css",
+    "watch": "node ./node_modules/sass/sass.js --watch ./src/lib:./dist"
   }
 }

@@ -25,7 +25,7 @@ $base_w: 50px;
 @each $response in $responses {
   @each $size in $sizes {
     $scale_factor: map-get($scale_factors, $size);
-    @if $response == "resp" {
+    @if $response == "responsive" {
       $scale_factor: $scale_factor * map-get($scale_multipliers, $size);
     }
     @each $shape in $shapes {
