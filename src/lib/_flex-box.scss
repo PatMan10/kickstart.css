@@ -1,214 +1,60 @@
-/*
- * ^^^^^^^^^^^^^^^^  FLEX BOX ^^^^^^^^^^^^^^^^
- */
+// ####################
+// FLEX UTILS
+// ####################
 
-/*
- * --------------- flex container classes ---------------
- */
+// DIRECTION
 
-.flex-col {
-  display: flex;
-  flex-direction: column;
+.flex-row { 
+	display: flex;
+	direction: row;
+}
+.flex-col { 
+	display: flex;
+	direction: column;
+}
+.inline-flex-row {
+	display: inline-flex;
+	direction: row;
+}
+.inline-flex-col {
+	display: inline-flex;
+	direction: column;
 }
 
-.flex-colR {
-  display: flex;
-  flex-direction: column-reverse;
-}
+// JUSTIFY CONTENT
 
-.flex-row {
-  display: flex;
-}
+.justify-start { justify-content: flex-start; }
+.justify-end { justify-content: flex-end; }
+.justify-center { justify-content: center; }
+.justify-between { justify-content: space-between; }
+.justify-around { justify-content: space-around; }
+.justify-evenly { justify-content: space-evenly; }
 
-.flex-rowR {
-  display: flex;
-  flex-direction: row-reverse;
-}
+// ALIGN ITEMS
 
-/*
- * --------------- align items ---------------
- */
+.align-start { align-items: flex-start; }
+.align-end { align-items: flex-end; }
+.align-center { align-items: center; }
+.align-baseline { align-items: baseline; }
+.align-stretch { align-items: stretch; }
 
-.flex-aiS {
-  align-items: flex-start;
-}
 
-.flex-aiC {
-  align-items: center;
-}
+// ALIGN SELF
 
-.flex-aiE {
-  align-items: flex-end;
-}
+.self-auto { align-self: auto; }
+.self-start {	align-self: flex-start;}
+.self-end {	align-self: flex-end; }
+.self-center { align-self: center; }
+.self-baseline { align-self: baseline; }
+.self-stretch {	align-self: stretch; }
 
-/*
- * --------------- justify content ---------------
- */
+// WRAP
 
-.flex-jcC {
-  justify-content: center;
-}
+.flex-wrap {	flex-wrap: wrap; }
+.flex-wrap-reverse {	flex-wrap: wrap-reverse; }
+.flex-nowrap {	flex-wrap: nowrap; }
 
-.flex-jcE {
-  justify-content: flex-end;
-}
-
-.flex-jcSA {
-  justify-content: space-around;
-}
-
-.flex-jcSB {
-  justify-content: space-between;
-}
-
-.flex-jcSE {
-  justify-content: space-evenly;
-}
-
-/*
- * --------------- combos ---------------
- */
-
-.flex-col-aiS {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-row-aiS {
-  align-items: flex-start;
-  display: flex;
-}
-
-.flex-col-aiC {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-row-aiC {
-  align-items: center;
-  display: flex;
-}
-
-.flex-col-aiE {
-  align-items: flex-end;
-  display: flex;
-  flex-direction: column;
-}
-
-.flex-row-aiE {
-  align-items: flex-end;
-  display: flex;
-}
-
-.flex-col-jcC {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.flex-row-jcC {
-  display: flex;
-  justify-content: center;
-}
-
-.flex-col-jcE {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-
-.flex-row-jcE {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.flex-col-jcSA {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-}
-
-.flex-row-jcSA {
-  display: flex;
-  justify-content: space-around;
-}
-
-.flex-col-jcSB {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.flex-row-jcSB {
-  display: flex;
-  justify-content: space-between;
-}
-
-.flex-col-jcSE {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-
-.flex-row-jcSE {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.flex-col-aiC-jcC {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.flex-row-aiC-jcC {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-/*
- * --------------- wrap ---------------
- */
-
-.flex-wNW {
-  flex-wrap: nowrap;
-}
-
-.flex-wW {
-  flex-wrap: wrap;
-}
-
-.flex-wWR {
-  flex-wrap: wrap-reverse;
-}
-
-/*
- * --------------- flex item classes ---------------
- */
-
-/*
- * --------------- align self --------------- 
- */
-
-.flex-asS {
-  align-self: flex-start;
-}
-
-.flex-asC {
-  align-self: center;
-}
-
-.flex-asE {
-  align-self: flex-end;
-}
-
-/*
- * --------------- grow/shrink --------------- 
- */
+// GROW/SHRINK
 
 @for $i from 1 through 10 {
   .flex-g#{$i} {
