@@ -1,3 +1,5 @@
+$sides: "", "x", "y", "t", "r", "b", "l";
+
 @function getPropNames($prop, $side) {
   @if ($side == "") {
     @return "#{$prop}";
@@ -21,7 +23,6 @@
     @return "#{$prop}-left";
   }
 }
-$sides: "", "x", "y", "t", "r", "b", "l";
 
 /*
  * ^^^^^^^^^^^^^^^^ MARGIN ^^^^^^^^^^^^^^^^ 
