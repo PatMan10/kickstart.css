@@ -17,38 +17,33 @@
 $base_h: 200px;
 $base_w: 200px;
 
-@each $response in $responses {
-  @each $size in $sizes {
-    $scale_factor: map-get($scale_factors, $size);
-    @if $response == "responsive" {
-      $scale_factor: $scale_factor * map-get($scale_multipliers, $size);
-    }
-    @each $shape in $shapes {
-      @if $shape == "rectangle" {
-        @each $orientation in $orientations {
-          $h: $base_h * $scale_factor;
-          $w: $base_w * $scale_factor;
-
-          @if $orientation == "v" {
-            $h: $h * 1.5;
-          } @else {
-            $w: $w * 1.5;
-          }
-
-          .#{$response}-image-container-#{$size}-#{$orientation}-#{$shape} {
-            @include image-container($h, $w);
-          }
+@each $size in $sizes {
+  $h: $base_h * map-get($scale_multipliers, $size);
+  $w: $base_w * map-get($scale_multipliers, $size);
+  
+  @each $shape in $shapes {
+    @if $shape == "rectangle" {
+      @each $orientation in $orientations {
+        $rect_h: $h;
+        $rect_w: $w;
+        @if $orientation == "v" {
+          $rect_h: $h * 1.5;
+          $rect_w: $w;
+        } @else {
+          $rect_h: $h;
+          $rect_w: $w * 1.5;
         }
-      } @else {
-        $h: $base_h * $scale_factor;
-        $w: $base_w * $scale_factor;
 
-        .#{$response}-image-container-#{$size}-#{$shape} {
-          @include image-container($h, $w);
+        .image-container-#{$size}-#{$orientation}-#{$shape} {
+          @include image-container($rect_h, $rect_w);
+        }
+      }
+    } @else {
+      .image-container-#{$size}-#{$shape} {
+        @include image-container($h, $w);
 
-          @if $shape == "circle" {
-            border-radius: 50%;
-          }
+        @if $shape == "circle" {
+          border-radius: 50%;
         }
       }
     }

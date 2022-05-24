@@ -5,10 +5,10 @@ $sides: "", "x", "y", "t", "r", "b", "l";
     @return "#{$prop}";
   }
   @if ($side == "x") {
-    @return "#{$prop}-right""#{$prop}-left";
+    @return "#{$prop}-right", "#{$prop}-left";
   }
   @if ($side == "y") {
-    @return "#{$prop}-top""#{$prop}-bottom";
+    @return "#{$prop}-top", "#{$prop}-bottom";
   }
   @if ($side == "t") {
     @return "#{$prop}-top";
