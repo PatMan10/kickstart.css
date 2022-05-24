@@ -1,8 +1,8 @@
 $sides: "", "x", "y", "t", "r", "b", "l";
 
-@function getPropNames($prop, $side) {
+@function getProps($prop, $side) {
   @if ($side == "") {
-    @return "#{$prop}";
+    @return $prop;
   }
   @if ($side == "x") {
     @return "#{$prop}-right", "#{$prop}-left";
@@ -28,32 +28,22 @@ $sides: "", "x", "y", "t", "r", "b", "l";
  * ^^^^^^^^^^^^^^^^ MARGIN ^^^^^^^^^^^^^^^^ 
  */
 @each $side in $sides {
-  $value: 0;
-  $multiplier: 1;
-  @for $i from 0 through 5 {
-    @if $i == 0 {
-      .m#{$side}-auto {
-        @each $propName in getPropNames("margin", $side) {
-          #{$propName}: auto;
+  .m#{$side}-auto {
+    @each $prop in getProps("margin", $side) {
+      #{$prop}: auto;
+    }
+  }
+
+  $v: 0;
+  @for $i from 0 to 21 {
+    @each $dec in ("", "\\.25", "\\.5", "\\.75") {
+      .m#{$side}-#{$i}#{$dec} {
+        @each $prop in getProps("margin", $side) {
+          #{$prop}: #{$v}rem;
         }
       }
+      $v: $v + 0.25;
     }
-    .m#{$side}-#{$i} {
-      @each $propName in getPropNames("margin", $side) {
-        #{$propName}: #{$value}rem;
-      }
-    }
-    @if $value == 0 {
-      $value: $value + 0.5;
-    } @else if $value < 1 {
-      $value: $value + 0.25;
-    } @else {
-      $multiplier: 2;
-      @if $i == 4 {
-        $value: 2;
-      }
-    }
-    $value: $value * $multiplier;
   }
 }
 
@@ -61,31 +51,21 @@ $sides: "", "x", "y", "t", "r", "b", "l";
  * ^^^^^^^^^^^^^^^^ PADDING ^^^^^^^^^^^^^^^^ 
  */
 @each $side in $sides {
-  $value: 0;
-  $multiplier: 1;
-  @for $i from 0 through 5 {
-    @if $i == 0 {
-      .p#{$side}-auto {
-        @each $propName in getPropNames("padding", $side) {
-          #{$propName}: auto;
+  .p#{$side}-auto {
+    @each $prop in getProps("padding", $side) {
+      #{$prop}: auto;
+    }
+  }
+
+  $v: 0;
+  @for $i from 0 to 21 {
+    @each $dec in ("", "\\.25", "\\.5", "\\.75") {
+      .p#{$side}-#{$i}#{$dec} {
+        @each $prop in getProps("padding", $side) {
+          #{$prop}: #{$v}rem;
         }
       }
+      $v: $v + 0.25;
     }
-    .p#{$side}-#{$i} {
-      @each $propName in getPropNames("padding", $side) {
-        #{$propName}: #{$value}rem;
-      }
-    }
-    @if $value == 0 {
-      $value: $value + 0.5;
-    } @else if $value < 1 {
-      $value: $value + 0.25;
-    } @else {
-      $multiplier: 2;
-      @if $i == 4 {
-        $value: 2;
-      }
-    }
-    $value: $value * $multiplier;
   }
 }
