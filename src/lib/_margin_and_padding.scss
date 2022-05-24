@@ -35,7 +35,7 @@ $sides: "", "x", "y", "t", "r", "b", "l";
   }
 
   $v: 0;
-  @for $i from 0 to 21 {
+  @for $i from 0 through 20 {
     @each $dec in ("", "\\.25", "\\.5", "\\.75") {
       .m#{$side}-#{$i}#{$dec} {
         @each $prop in getProps("margin", $side) {
@@ -58,7 +58,7 @@ $sides: "", "x", "y", "t", "r", "b", "l";
   }
 
   $v: 0;
-  @for $i from 0 to 21 {
+  @for $i from 0 through 20 {
     @each $dec in ("", "\\.25", "\\.5", "\\.75") {
       .p#{$side}-#{$i}#{$dec} {
         @each $prop in getProps("padding", $side) {
