@@ -30,10 +30,10 @@ $body_bg_colors: (
   xxl: green,
 );
 
-@each $key, $value in $screen_breakpoints {
-  @media (min-width: #{$value}) {
+@each $k, $v in $screen_breakpoints {
+  @media (min-width: #{$v}) {
     body {
-      background-color: map-get($body_bg_colors, $key);
+      background-color: map-get($body_bg_colors, $k);
     }
   }
 }

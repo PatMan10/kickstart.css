@@ -7303,1191 +7303,1191 @@
 /*
  * ^^^^^^^^^^^^^^^^ BACKGROUND-COLORS ^^^^^^^^^^^^^^^^ 
  */
-.aliceBlue-bg {
-  background-color: aliceBlue;
+.bg-aliceblue {
+  background-color: aliceblue;
 }
 
-.antiqueWhite-bg {
-  background-color: antiqueWhite;
+.bg-antiquewhite {
+  background-color: antiquewhite;
 }
 
-.aqua-bg {
+.bg-aqua {
   background-color: aqua;
 }
 
-.aquamarine-bg {
+.bg-aquamarine {
   background-color: aquamarine;
 }
 
-.azure-bg {
+.bg-azure {
   background-color: azure;
 }
 
-.beige-bg {
+.bg-beige {
   background-color: beige;
 }
 
-.bisque-bg {
+.bg-bisque {
   background-color: bisque;
 }
 
-.black-bg {
+.bg-black {
   background-color: black;
 }
 
-.blanchedAlmond-bg {
-  background-color: blanchedAlmond;
+.bg-blanchedalmond {
+  background-color: blanchedalmond;
 }
 
-.blue-bg {
+.bg-blue {
   background-color: blue;
 }
 
-.blueViolet-bg {
-  background-color: blueViolet;
+.bg-blueviolet {
+  background-color: blueviolet;
 }
 
-.brown-bg {
+.bg-brown {
   background-color: brown;
 }
 
-.burlyWood-bg {
-  background-color: burlyWood;
+.bg-burlywood {
+  background-color: burlywood;
 }
 
-.cadetBlue-bg {
-  background-color: cadetBlue;
+.bg-cadetblue {
+  background-color: cadetblue;
 }
 
-.chartreuse-bg {
+.bg-chartreuse {
   background-color: chartreuse;
 }
 
-.chocolate-bg {
+.bg-chocolate {
   background-color: chocolate;
 }
 
-.coral-bg {
+.bg-coral {
   background-color: coral;
 }
 
-.cornflowerBlue-bg {
-  background-color: cornflowerBlue;
+.bg-cornflowerblue {
+  background-color: cornflowerblue;
 }
 
-.cornsilk-bg {
+.bg-cornsilk {
   background-color: cornsilk;
 }
 
-.crimson-bg {
+.bg-crimson {
   background-color: crimson;
 }
 
-.cyan-bg {
+.bg-cyan {
   background-color: cyan;
 }
 
-.darkBlue-bg {
-  background-color: darkBlue;
+.bg-darkblue {
+  background-color: darkblue;
 }
 
-.darkCyan-bg {
-  background-color: darkCyan;
+.bg-darkcyan {
+  background-color: darkcyan;
 }
 
-.darkGoldenRod-bg {
-  background-color: darkGoldenRod;
+.bg-darkgoldenrod {
+  background-color: darkgoldenrod;
 }
 
-.darkGray-bg {
-  background-color: darkGray;
+.bg-darkgray {
+  background-color: darkgray;
 }
 
-.darkGrey-bg {
-  background-color: darkGrey;
+.bg-darkgrey {
+  background-color: darkgrey;
 }
 
-.darkGreen-bg {
-  background-color: darkGreen;
+.bg-darkgreen {
+  background-color: darkgreen;
 }
 
-.darkKhaki-bg {
-  background-color: darkKhaki;
+.bg-darkkhaki {
+  background-color: darkkhaki;
 }
 
-.darkMagenta-bg {
-  background-color: darkMagenta;
+.bg-darkmagenta {
+  background-color: darkmagenta;
 }
 
-.darkOliveGreen-bg {
-  background-color: darkOliveGreen;
+.bg-darkolivegreen {
+  background-color: darkolivegreen;
 }
 
-.darkOrange-bg {
-  background-color: darkOrange;
+.bg-darkorange {
+  background-color: darkorange;
 }
 
-.darkOrchid-bg {
-  background-color: darkOrchid;
+.bg-darkorchid {
+  background-color: darkorchid;
 }
 
-.darkRed-bg {
-  background-color: darkRed;
+.bg-darkred {
+  background-color: darkred;
 }
 
-.darkSalmon-bg {
-  background-color: darkSalmon;
+.bg-darksalmon {
+  background-color: darksalmon;
 }
 
-.darkSeaGreen-bg {
-  background-color: darkSeaGreen;
+.bg-darkseagreen {
+  background-color: darkseagreen;
 }
 
-.darkSlateBlue-bg {
-  background-color: darkSlateBlue;
+.bg-darkslateblue {
+  background-color: darkslateblue;
 }
 
-.darkSlateGray-bg {
-  background-color: darkSlateGray;
+.bg-darkslategray {
+  background-color: darkslategray;
 }
 
-.darkSlateGrey-bg {
-  background-color: darkSlateGrey;
+.bg-darkslategrey {
+  background-color: darkslategrey;
 }
 
-.darkTurquoise-bg {
-  background-color: darkTurquoise;
+.bg-darkturquoise {
+  background-color: darkturquoise;
 }
 
-.darkViolet-bg {
-  background-color: darkViolet;
+.bg-darkviolet {
+  background-color: darkviolet;
 }
 
-.deepPink-bg {
-  background-color: deepPink;
+.bg-deeppink {
+  background-color: deeppink;
 }
 
-.deepSkyBlue-bg {
-  background-color: deepSkyBlue;
+.bg-deepskyblue {
+  background-color: deepskyblue;
 }
 
-.dimGray-bg {
-  background-color: dimGray;
+.bg-dimgray {
+  background-color: dimgray;
 }
 
-.dimGrey-bg {
-  background-color: dimGrey;
+.bg-dimgrey {
+  background-color: dimgrey;
 }
 
-.dodgerBlue-bg {
-  background-color: dodgerBlue;
+.bg-dodgerblue {
+  background-color: dodgerblue;
 }
 
-.fireBrick-bg {
-  background-color: fireBrick;
+.bg-firebrick {
+  background-color: firebrick;
 }
 
-.floralWhite-bg {
-  background-color: floralWhite;
+.bg-floralwhite {
+  background-color: floralwhite;
 }
 
-.forestGreen-bg {
-  background-color: forestGreen;
+.bg-forestgreen {
+  background-color: forestgreen;
 }
 
-.fuchsia-bg {
+.bg-fuchsia {
   background-color: fuchsia;
 }
 
-.gainsboro-bg {
+.bg-gainsboro {
   background-color: gainsboro;
 }
 
-.ghostWhite-bg {
-  background-color: ghostWhite;
+.bg-ghostwhite {
+  background-color: ghostwhite;
 }
 
-.gold-bg {
+.bg-gold {
   background-color: gold;
 }
 
-.goldenRod-bg {
-  background-color: goldenRod;
+.bg-goldenrod {
+  background-color: goldenrod;
 }
 
-.gray-bg {
+.bg-gray {
   background-color: gray;
 }
 
-.grey-bg {
+.bg-grey {
   background-color: grey;
 }
 
-.green-bg {
+.bg-green {
   background-color: green;
 }
 
-.greenYellow-bg {
-  background-color: greenYellow;
+.bg-greenyellow {
+  background-color: greenyellow;
 }
 
-.honeyDew-bg {
-  background-color: honeyDew;
+.bg-honeydew {
+  background-color: honeydew;
 }
 
-.hotPink-bg {
-  background-color: hotPink;
+.bg-hotpink {
+  background-color: hotpink;
 }
 
-.indianRed-bg {
-  background-color: indianRed;
+.bg-indianred {
+  background-color: indianred;
 }
 
-.indigo-bg {
+.bg-indigo {
   background-color: indigo;
 }
 
-.ivory-bg {
+.bg-ivory {
   background-color: ivory;
 }
 
-.khaki-bg {
+.bg-khaki {
   background-color: khaki;
 }
 
-.lavender-bg {
+.bg-lavender {
   background-color: lavender;
 }
 
-.lavenderBlush-bg {
-  background-color: lavenderBlush;
+.bg-lavenderblush {
+  background-color: lavenderblush;
 }
 
-.lawnGreen-bg {
-  background-color: lawnGreen;
+.bg-lawngreen {
+  background-color: lawngreen;
 }
 
-.lemonChiffon-bg {
-  background-color: lemonChiffon;
+.bg-lemonchiffon {
+  background-color: lemonchiffon;
 }
 
-.lightBlue-bg {
-  background-color: lightBlue;
+.bg-lightblue {
+  background-color: lightblue;
 }
 
-.lightCoral-bg {
-  background-color: lightCoral;
+.bg-lightcoral {
+  background-color: lightcoral;
 }
 
-.lightCyan-bg {
-  background-color: lightCyan;
+.bg-lightcyan {
+  background-color: lightcyan;
 }
 
-.lightGoldenRodYellow-bg {
-  background-color: lightGoldenRodYellow;
+.bg-lightgoldenrodyellow {
+  background-color: lightgoldenrodyellow;
 }
 
-.lightGray-bg {
-  background-color: lightGray;
+.bg-lightgray {
+  background-color: lightgray;
 }
 
-.lightGrey-bg {
-  background-color: lightGrey;
+.bg-lightgrey {
+  background-color: lightgrey;
 }
 
-.lightGreen-bg {
-  background-color: lightGreen;
+.bg-lightgreen {
+  background-color: lightgreen;
 }
 
-.lightPink-bg {
-  background-color: lightPink;
+.bg-lightpink {
+  background-color: lightpink;
 }
 
-.lightSalmon-bg {
-  background-color: lightSalmon;
+.bg-lightsalmon {
+  background-color: lightsalmon;
 }
 
-.lightSeaGreen-bg {
-  background-color: lightSeaGreen;
+.bg-lightseagreen {
+  background-color: lightseagreen;
 }
 
-.lightSkyBlue-bg {
-  background-color: lightSkyBlue;
+.bg-lightskyblue {
+  background-color: lightskyblue;
 }
 
-.lightSlateGray-bg {
-  background-color: lightSlateGray;
+.bg-lightslategray {
+  background-color: lightslategray;
 }
 
-.lightSlateGrey-bg {
-  background-color: lightSlateGrey;
+.bg-lightslategrey {
+  background-color: lightslategrey;
 }
 
-.lightSteelBlue-bg {
-  background-color: lightSteelBlue;
+.bg-lightsteelblue {
+  background-color: lightsteelblue;
 }
 
-.lightYellow-bg {
-  background-color: lightYellow;
+.bg-lightyellow {
+  background-color: lightyellow;
 }
 
-.lime-bg {
+.bg-lime {
   background-color: lime;
 }
 
-.limeGreen-bg {
-  background-color: limeGreen;
+.bg-limegreen {
+  background-color: limegreen;
 }
 
-.linen-bg {
+.bg-linen {
   background-color: linen;
 }
 
-.magenta-bg {
+.bg-magenta {
   background-color: magenta;
 }
 
-.maroon-bg {
+.bg-maroon {
   background-color: maroon;
 }
 
-.mediumAquaMarine-bg {
-  background-color: mediumAquaMarine;
+.bg-mediumaquamarine {
+  background-color: mediumaquamarine;
 }
 
-.mediumBlue-bg {
-  background-color: mediumBlue;
+.bg-mediumblue {
+  background-color: mediumblue;
 }
 
-.mediumOrchid-bg {
-  background-color: mediumOrchid;
+.bg-mediumorchid {
+  background-color: mediumorchid;
 }
 
-.mediumPurple-bg {
-  background-color: mediumPurple;
+.bg-mediumpurple {
+  background-color: mediumpurple;
 }
 
-.mediumSeaGreen-bg {
-  background-color: mediumSeaGreen;
+.bg-mediumseagreen {
+  background-color: mediumseagreen;
 }
 
-.mediumSlateBlue-bg {
-  background-color: mediumSlateBlue;
+.bg-mediumslateblue {
+  background-color: mediumslateblue;
 }
 
-.mediumSpringGreen-bg {
-  background-color: mediumSpringGreen;
+.bg-mediumspringgreen {
+  background-color: mediumspringgreen;
 }
 
-.mediumTurquoise-bg {
-  background-color: mediumTurquoise;
+.bg-mediumturquoise {
+  background-color: mediumturquoise;
 }
 
-.mediumVioletRed-bg {
-  background-color: mediumVioletRed;
+.bg-mediumvioletred {
+  background-color: mediumvioletred;
 }
 
-.midnightBlue-bg {
-  background-color: midnightBlue;
+.bg-midnightblue {
+  background-color: midnightblue;
 }
 
-.mintCream-bg {
-  background-color: mintCream;
+.bg-mintcream {
+  background-color: mintcream;
 }
 
-.mistyRose-bg {
-  background-color: mistyRose;
+.bg-mistyrose {
+  background-color: mistyrose;
 }
 
-.moccasin-bg {
+.bg-moccasin {
   background-color: moccasin;
 }
 
-.navajoWhite-bg {
-  background-color: navajoWhite;
+.bg-navajowhite {
+  background-color: navajowhite;
 }
 
-.navy-bg {
+.bg-navy {
   background-color: navy;
 }
 
-.oldLace-bg {
-  background-color: oldLace;
+.bg-oldlace {
+  background-color: oldlace;
 }
 
-.olive-bg {
+.bg-olive {
   background-color: olive;
 }
 
-.oliveDrab-bg {
-  background-color: oliveDrab;
+.bg-olivedrab {
+  background-color: olivedrab;
 }
 
-.orange-bg {
+.bg-orange {
   background-color: orange;
 }
 
-.orangeRed-bg {
-  background-color: orangeRed;
+.bg-orangered {
+  background-color: orangered;
 }
 
-.orchid-bg {
+.bg-orchid {
   background-color: orchid;
 }
 
-.paleGoldenRod-bg {
-  background-color: paleGoldenRod;
+.bg-palegoldenrod {
+  background-color: palegoldenrod;
 }
 
-.paleGreen-bg {
-  background-color: paleGreen;
+.bg-palegreen {
+  background-color: palegreen;
 }
 
-.paleTurquoise-bg {
-  background-color: paleTurquoise;
+.bg-paleturquoise {
+  background-color: paleturquoise;
 }
 
-.paleVioletRed-bg {
-  background-color: paleVioletRed;
+.bg-palevioletred {
+  background-color: palevioletred;
 }
 
-.papayaWhip-bg {
-  background-color: papayaWhip;
+.bg-papayawhip {
+  background-color: papayawhip;
 }
 
-.peachPuff-bg {
-  background-color: peachPuff;
+.bg-peachpuff {
+  background-color: peachpuff;
 }
 
-.peru-bg {
+.bg-peru {
   background-color: peru;
 }
 
-.pink-bg {
+.bg-pink {
   background-color: pink;
 }
 
-.plum-bg {
+.bg-plum {
   background-color: plum;
 }
 
-.powderBlue-bg {
-  background-color: powderBlue;
+.bg-powderblue {
+  background-color: powderblue;
 }
 
-.purple-bg {
+.bg-purple {
   background-color: purple;
 }
 
-.rebeccaPurple-bg {
-  background-color: rebeccaPurple;
+.bg-rebeccapurple {
+  background-color: rebeccapurple;
 }
 
-.red-bg {
+.bg-red {
   background-color: red;
 }
 
-.rosyBrown-bg {
-  background-color: rosyBrown;
+.bg-rosybrown {
+  background-color: rosybrown;
 }
 
-.royalBlue-bg {
-  background-color: royalBlue;
+.bg-royalblue {
+  background-color: royalblue;
 }
 
-.saddleBrown-bg {
-  background-color: saddleBrown;
+.bg-saddlebrown {
+  background-color: saddlebrown;
 }
 
-.salmon-bg {
+.bg-salmon {
   background-color: salmon;
 }
 
-.sandyBrown-bg {
-  background-color: sandyBrown;
+.bg-sandybrown {
+  background-color: sandybrown;
 }
 
-.seaGreen-bg {
-  background-color: seaGreen;
+.bg-seagreen {
+  background-color: seagreen;
 }
 
-.seaShell-bg {
-  background-color: seaShell;
+.bg-seashell {
+  background-color: seashell;
 }
 
-.sienna-bg {
+.bg-sienna {
   background-color: sienna;
 }
 
-.silver-bg {
+.bg-silver {
   background-color: silver;
 }
 
-.skyBlue-bg {
-  background-color: skyBlue;
+.bg-skyblue {
+  background-color: skyblue;
 }
 
-.slateBlue-bg {
-  background-color: slateBlue;
+.bg-slateblue {
+  background-color: slateblue;
 }
 
-.slateGray-bg {
-  background-color: slateGray;
+.bg-slategray {
+  background-color: slategray;
 }
 
-.slateGrey-bg {
-  background-color: slateGrey;
+.bg-slategrey {
+  background-color: slategrey;
 }
 
-.snow-bg {
+.bg-snow {
   background-color: snow;
 }
 
-.springGreen-bg {
-  background-color: springGreen;
+.bg-springgreen {
+  background-color: springgreen;
 }
 
-.steelBlue-bg {
-  background-color: steelBlue;
+.bg-steelblue {
+  background-color: steelblue;
 }
 
-.tan-bg {
+.bg-tan {
   background-color: tan;
 }
 
-.teal-bg {
+.bg-teal {
   background-color: teal;
 }
 
-.thistle-bg {
+.bg-thistle {
   background-color: thistle;
 }
 
-.tomato-bg {
+.bg-tomato {
   background-color: tomato;
 }
 
-.turquoise-bg {
+.bg-turquoise {
   background-color: turquoise;
 }
 
-.violet-bg {
+.bg-violet {
   background-color: violet;
 }
 
-.wheat-bg {
+.bg-wheat {
   background-color: wheat;
 }
 
-.white-bg {
+.bg-white {
   background-color: white;
 }
 
-.whiteSmoke-bg {
-  background-color: whiteSmoke;
+.bg-whitesmoke {
+  background-color: whitesmoke;
 }
 
-.yellow-bg {
+.bg-yellow {
   background-color: yellow;
 }
 
-.yellowGreen-bg {
-  background-color: yellowGreen;
+.bg-yellowgreen {
+  background-color: yellowgreen;
 }
 
 /*
  * ^^^^^^^^^^^^^^^^ TEXT-COLORS ^^^^^^^^^^^^^^^^ 
  */
-.aliceBlue-txt {
-  color: aliceBlue;
+.txt-aliceblue {
+  color: aliceblue;
 }
 
-.antiqueWhite-txt {
-  color: antiqueWhite;
+.txt-antiquewhite {
+  color: antiquewhite;
 }
 
-.aqua-txt {
+.txt-aqua {
   color: aqua;
 }
 
-.aquamarine-txt {
+.txt-aquamarine {
   color: aquamarine;
 }
 
-.azure-txt {
+.txt-azure {
   color: azure;
 }
 
-.beige-txt {
+.txt-beige {
   color: beige;
 }
 
-.bisque-txt {
+.txt-bisque {
   color: bisque;
 }
 
-.black-txt {
+.txt-black {
   color: black;
 }
 
-.blanchedAlmond-txt {
-  color: blanchedAlmond;
+.txt-blanchedalmond {
+  color: blanchedalmond;
 }
 
-.blue-txt {
+.txt-blue {
   color: blue;
 }
 
-.blueViolet-txt {
-  color: blueViolet;
+.txt-blueviolet {
+  color: blueviolet;
 }
 
-.brown-txt {
+.txt-brown {
   color: brown;
 }
 
-.burlyWood-txt {
-  color: burlyWood;
+.txt-burlywood {
+  color: burlywood;
 }
 
-.cadetBlue-txt {
-  color: cadetBlue;
+.txt-cadetblue {
+  color: cadetblue;
 }
 
-.chartreuse-txt {
+.txt-chartreuse {
   color: chartreuse;
 }
 
-.chocolate-txt {
+.txt-chocolate {
   color: chocolate;
 }
 
-.coral-txt {
+.txt-coral {
   color: coral;
 }
 
-.cornflowerBlue-txt {
-  color: cornflowerBlue;
+.txt-cornflowerblue {
+  color: cornflowerblue;
 }
 
-.cornsilk-txt {
+.txt-cornsilk {
   color: cornsilk;
 }
 
-.crimson-txt {
+.txt-crimson {
   color: crimson;
 }
 
-.cyan-txt {
+.txt-cyan {
   color: cyan;
 }
 
-.darkBlue-txt {
-  color: darkBlue;
+.txt-darkblue {
+  color: darkblue;
 }
 
-.darkCyan-txt {
-  color: darkCyan;
+.txt-darkcyan {
+  color: darkcyan;
 }
 
-.darkGoldenRod-txt {
-  color: darkGoldenRod;
+.txt-darkgoldenrod {
+  color: darkgoldenrod;
 }
 
-.darkGray-txt {
-  color: darkGray;
+.txt-darkgray {
+  color: darkgray;
 }
 
-.darkGrey-txt {
-  color: darkGrey;
+.txt-darkgrey {
+  color: darkgrey;
 }
 
-.darkGreen-txt {
-  color: darkGreen;
+.txt-darkgreen {
+  color: darkgreen;
 }
 
-.darkKhaki-txt {
-  color: darkKhaki;
+.txt-darkkhaki {
+  color: darkkhaki;
 }
 
-.darkMagenta-txt {
-  color: darkMagenta;
+.txt-darkmagenta {
+  color: darkmagenta;
 }
 
-.darkOliveGreen-txt {
-  color: darkOliveGreen;
+.txt-darkolivegreen {
+  color: darkolivegreen;
 }
 
-.darkOrange-txt {
-  color: darkOrange;
+.txt-darkorange {
+  color: darkorange;
 }
 
-.darkOrchid-txt {
-  color: darkOrchid;
+.txt-darkorchid {
+  color: darkorchid;
 }
 
-.darkRed-txt {
-  color: darkRed;
+.txt-darkred {
+  color: darkred;
 }
 
-.darkSalmon-txt {
-  color: darkSalmon;
+.txt-darksalmon {
+  color: darksalmon;
 }
 
-.darkSeaGreen-txt {
-  color: darkSeaGreen;
+.txt-darkseagreen {
+  color: darkseagreen;
 }
 
-.darkSlateBlue-txt {
-  color: darkSlateBlue;
+.txt-darkslateblue {
+  color: darkslateblue;
 }
 
-.darkSlateGray-txt {
-  color: darkSlateGray;
+.txt-darkslategray {
+  color: darkslategray;
 }
 
-.darkSlateGrey-txt {
-  color: darkSlateGrey;
+.txt-darkslategrey {
+  color: darkslategrey;
 }
 
-.darkTurquoise-txt {
-  color: darkTurquoise;
+.txt-darkturquoise {
+  color: darkturquoise;
 }
 
-.darkViolet-txt {
-  color: darkViolet;
+.txt-darkviolet {
+  color: darkviolet;
 }
 
-.deepPink-txt {
-  color: deepPink;
+.txt-deeppink {
+  color: deeppink;
 }
 
-.deepSkyBlue-txt {
-  color: deepSkyBlue;
+.txt-deepskyblue {
+  color: deepskyblue;
 }
 
-.dimGray-txt {
-  color: dimGray;
+.txt-dimgray {
+  color: dimgray;
 }
 
-.dimGrey-txt {
-  color: dimGrey;
+.txt-dimgrey {
+  color: dimgrey;
 }
 
-.dodgerBlue-txt {
-  color: dodgerBlue;
+.txt-dodgerblue {
+  color: dodgerblue;
 }
 
-.fireBrick-txt {
-  color: fireBrick;
+.txt-firebrick {
+  color: firebrick;
 }
 
-.floralWhite-txt {
-  color: floralWhite;
+.txt-floralwhite {
+  color: floralwhite;
 }
 
-.forestGreen-txt {
-  color: forestGreen;
+.txt-forestgreen {
+  color: forestgreen;
 }
 
-.fuchsia-txt {
+.txt-fuchsia {
   color: fuchsia;
 }
 
-.gainsboro-txt {
+.txt-gainsboro {
   color: gainsboro;
 }
 
-.ghostWhite-txt {
-  color: ghostWhite;
+.txt-ghostwhite {
+  color: ghostwhite;
 }
 
-.gold-txt {
+.txt-gold {
   color: gold;
 }
 
-.goldenRod-txt {
-  color: goldenRod;
+.txt-goldenrod {
+  color: goldenrod;
 }
 
-.gray-txt {
+.txt-gray {
   color: gray;
 }
 
-.grey-txt {
+.txt-grey {
   color: grey;
 }
 
-.green-txt {
+.txt-green {
   color: green;
 }
 
-.greenYellow-txt {
-  color: greenYellow;
+.txt-greenyellow {
+  color: greenyellow;
 }
 
-.honeyDew-txt {
-  color: honeyDew;
+.txt-honeydew {
+  color: honeydew;
 }
 
-.hotPink-txt {
-  color: hotPink;
+.txt-hotpink {
+  color: hotpink;
 }
 
-.indianRed-txt {
-  color: indianRed;
+.txt-indianred {
+  color: indianred;
 }
 
-.indigo-txt {
+.txt-indigo {
   color: indigo;
 }
 
-.ivory-txt {
+.txt-ivory {
   color: ivory;
 }
 
-.khaki-txt {
+.txt-khaki {
   color: khaki;
 }
 
-.lavender-txt {
+.txt-lavender {
   color: lavender;
 }
 
-.lavenderBlush-txt {
-  color: lavenderBlush;
+.txt-lavenderblush {
+  color: lavenderblush;
 }
 
-.lawnGreen-txt {
-  color: lawnGreen;
+.txt-lawngreen {
+  color: lawngreen;
 }
 
-.lemonChiffon-txt {
-  color: lemonChiffon;
+.txt-lemonchiffon {
+  color: lemonchiffon;
 }
 
-.lightBlue-txt {
-  color: lightBlue;
+.txt-lightblue {
+  color: lightblue;
 }
 
-.lightCoral-txt {
-  color: lightCoral;
+.txt-lightcoral {
+  color: lightcoral;
 }
 
-.lightCyan-txt {
-  color: lightCyan;
+.txt-lightcyan {
+  color: lightcyan;
 }
 
-.lightGoldenRodYellow-txt {
-  color: lightGoldenRodYellow;
+.txt-lightgoldenrodyellow {
+  color: lightgoldenrodyellow;
 }
 
-.lightGray-txt {
-  color: lightGray;
+.txt-lightgray {
+  color: lightgray;
 }
 
-.lightGrey-txt {
-  color: lightGrey;
+.txt-lightgrey {
+  color: lightgrey;
 }
 
-.lightGreen-txt {
-  color: lightGreen;
+.txt-lightgreen {
+  color: lightgreen;
 }
 
-.lightPink-txt {
-  color: lightPink;
+.txt-lightpink {
+  color: lightpink;
 }
 
-.lightSalmon-txt {
-  color: lightSalmon;
+.txt-lightsalmon {
+  color: lightsalmon;
 }
 
-.lightSeaGreen-txt {
-  color: lightSeaGreen;
+.txt-lightseagreen {
+  color: lightseagreen;
 }
 
-.lightSkyBlue-txt {
-  color: lightSkyBlue;
+.txt-lightskyblue {
+  color: lightskyblue;
 }
 
-.lightSlateGray-txt {
-  color: lightSlateGray;
+.txt-lightslategray {
+  color: lightslategray;
 }
 
-.lightSlateGrey-txt {
-  color: lightSlateGrey;
+.txt-lightslategrey {
+  color: lightslategrey;
 }
 
-.lightSteelBlue-txt {
-  color: lightSteelBlue;
+.txt-lightsteelblue {
+  color: lightsteelblue;
 }
 
-.lightYellow-txt {
-  color: lightYellow;
+.txt-lightyellow {
+  color: lightyellow;
 }
 
-.lime-txt {
+.txt-lime {
   color: lime;
 }
 
-.limeGreen-txt {
-  color: limeGreen;
+.txt-limegreen {
+  color: limegreen;
 }
 
-.linen-txt {
+.txt-linen {
   color: linen;
 }
 
-.magenta-txt {
+.txt-magenta {
   color: magenta;
 }
 
-.maroon-txt {
+.txt-maroon {
   color: maroon;
 }
 
-.mediumAquaMarine-txt {
-  color: mediumAquaMarine;
+.txt-mediumaquamarine {
+  color: mediumaquamarine;
 }
 
-.mediumBlue-txt {
-  color: mediumBlue;
+.txt-mediumblue {
+  color: mediumblue;
 }
 
-.mediumOrchid-txt {
-  color: mediumOrchid;
+.txt-mediumorchid {
+  color: mediumorchid;
 }
 
-.mediumPurple-txt {
-  color: mediumPurple;
+.txt-mediumpurple {
+  color: mediumpurple;
 }
 
-.mediumSeaGreen-txt {
-  color: mediumSeaGreen;
+.txt-mediumseagreen {
+  color: mediumseagreen;
 }
 
-.mediumSlateBlue-txt {
-  color: mediumSlateBlue;
+.txt-mediumslateblue {
+  color: mediumslateblue;
 }
 
-.mediumSpringGreen-txt {
-  color: mediumSpringGreen;
+.txt-mediumspringgreen {
+  color: mediumspringgreen;
 }
 
-.mediumTurquoise-txt {
-  color: mediumTurquoise;
+.txt-mediumturquoise {
+  color: mediumturquoise;
 }
 
-.mediumVioletRed-txt {
-  color: mediumVioletRed;
+.txt-mediumvioletred {
+  color: mediumvioletred;
 }
 
-.midnightBlue-txt {
-  color: midnightBlue;
+.txt-midnightblue {
+  color: midnightblue;
 }
 
-.mintCream-txt {
-  color: mintCream;
+.txt-mintcream {
+  color: mintcream;
 }
 
-.mistyRose-txt {
-  color: mistyRose;
+.txt-mistyrose {
+  color: mistyrose;
 }
 
-.moccasin-txt {
+.txt-moccasin {
   color: moccasin;
 }
 
-.navajoWhite-txt {
-  color: navajoWhite;
+.txt-navajowhite {
+  color: navajowhite;
 }
 
-.navy-txt {
+.txt-navy {
   color: navy;
 }
 
-.oldLace-txt {
-  color: oldLace;
+.txt-oldlace {
+  color: oldlace;
 }
 
-.olive-txt {
+.txt-olive {
   color: olive;
 }
 
-.oliveDrab-txt {
-  color: oliveDrab;
+.txt-olivedrab {
+  color: olivedrab;
 }
 
-.orange-txt {
+.txt-orange {
   color: orange;
 }
 
-.orangeRed-txt {
-  color: orangeRed;
+.txt-orangered {
+  color: orangered;
 }
 
-.orchid-txt {
+.txt-orchid {
   color: orchid;
 }
 
-.paleGoldenRod-txt {
-  color: paleGoldenRod;
+.txt-palegoldenrod {
+  color: palegoldenrod;
 }
 
-.paleGreen-txt {
-  color: paleGreen;
+.txt-palegreen {
+  color: palegreen;
 }
 
-.paleTurquoise-txt {
-  color: paleTurquoise;
+.txt-paleturquoise {
+  color: paleturquoise;
 }
 
-.paleVioletRed-txt {
-  color: paleVioletRed;
+.txt-palevioletred {
+  color: palevioletred;
 }
 
-.papayaWhip-txt {
-  color: papayaWhip;
+.txt-papayawhip {
+  color: papayawhip;
 }
 
-.peachPuff-txt {
-  color: peachPuff;
+.txt-peachpuff {
+  color: peachpuff;
 }
 
-.peru-txt {
+.txt-peru {
   color: peru;
 }
 
-.pink-txt {
+.txt-pink {
   color: pink;
 }
 
-.plum-txt {
+.txt-plum {
   color: plum;
 }
 
-.powderBlue-txt {
-  color: powderBlue;
+.txt-powderblue {
+  color: powderblue;
 }
 
-.purple-txt {
+.txt-purple {
   color: purple;
 }
 
-.rebeccaPurple-txt {
-  color: rebeccaPurple;
+.txt-rebeccapurple {
+  color: rebeccapurple;
 }
 
-.red-txt {
+.txt-red {
   color: red;
 }
 
-.rosyBrown-txt {
-  color: rosyBrown;
+.txt-rosybrown {
+  color: rosybrown;
 }
 
-.royalBlue-txt {
-  color: royalBlue;
+.txt-royalblue {
+  color: royalblue;
 }
 
-.saddleBrown-txt {
-  color: saddleBrown;
+.txt-saddlebrown {
+  color: saddlebrown;
 }
 
-.salmon-txt {
+.txt-salmon {
   color: salmon;
 }
 
-.sandyBrown-txt {
-  color: sandyBrown;
+.txt-sandybrown {
+  color: sandybrown;
 }
 
-.seaGreen-txt {
-  color: seaGreen;
+.txt-seagreen {
+  color: seagreen;
 }
 
-.seaShell-txt {
-  color: seaShell;
+.txt-seashell {
+  color: seashell;
 }
 
-.sienna-txt {
+.txt-sienna {
   color: sienna;
 }
 
-.silver-txt {
+.txt-silver {
   color: silver;
 }
 
-.skyBlue-txt {
-  color: skyBlue;
+.txt-skyblue {
+  color: skyblue;
 }
 
-.slateBlue-txt {
-  color: slateBlue;
+.txt-slateblue {
+  color: slateblue;
 }
 
-.slateGray-txt {
-  color: slateGray;
+.txt-slategray {
+  color: slategray;
 }
 
-.slateGrey-txt {
-  color: slateGrey;
+.txt-slategrey {
+  color: slategrey;
 }
 
-.snow-txt {
+.txt-snow {
   color: snow;
 }
 
-.springGreen-txt {
-  color: springGreen;
+.txt-springgreen {
+  color: springgreen;
 }
 
-.steelBlue-txt {
-  color: steelBlue;
+.txt-steelblue {
+  color: steelblue;
 }
 
-.tan-txt {
+.txt-tan {
   color: tan;
 }
 
-.teal-txt {
+.txt-teal {
   color: teal;
 }
 
-.thistle-txt {
+.txt-thistle {
   color: thistle;
 }
 
-.tomato-txt {
+.txt-tomato {
   color: tomato;
 }
 
-.turquoise-txt {
+.txt-turquoise {
   color: turquoise;
 }
 
-.violet-txt {
+.txt-violet {
   color: violet;
 }
 
-.wheat-txt {
+.txt-wheat {
   color: wheat;
 }
 
-.white-txt {
+.txt-white {
   color: white;
 }
 
-.whiteSmoke-txt {
-  color: whiteSmoke;
+.txt-whitesmoke {
+  color: whitesmoke;
 }
 
-.yellow-txt {
+.txt-yellow {
   color: yellow;
 }
 
-.yellowGreen-txt {
-  color: yellowGreen;
+.txt-yellowgreen {
+  color: yellowgreen;
 }
 
 /*# sourceMappingURL=kickstart.css.map */
