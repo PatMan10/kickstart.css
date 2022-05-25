@@ -1,6 +1,6 @@
 @media (min-width: 0px) {
   body {
-    background-color: darkRed;
+    background-color: darkred;
   }
 }
 @media (min-width: 368px) {
@@ -20,17 +20,66 @@
 }
 @media (min-width: 992px) {
   body {
-    background-color: greenYellow;
+    background-color: greenyellow;
   }
 }
 @media (min-width: 1200px) {
   body {
-    background-color: limeGreen;
+    background-color: limegreen;
   }
 }
 @media (min-width: 1400px) {
   body {
     background-color: green;
+  }
+}
+@media (min-width: 0px) {
+  .container {
+    width: 90%;
+    padding: 0 0.5rem;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 368px) {
+  .container {
+    width: 90%;
+    padding: 0 0.5rem;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 576px) {
+  .container {
+    width: 518.4px;
+    padding: 0 0.5rem;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 691.2px;
+    padding: 0 0.5rem;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 892.8px;
+    padding: 0 0.5rem;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1080px;
+    padding: 0 0.5rem;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1260px;
+    padding: 0 0.5rem;
+    margin: 0 auto;
   }
 }
 .flex-row {
@@ -233,9 +282,6 @@
   flex-shrink: 10;
 }
 
-/*
- * ^^^^^^^^^^^^^^^^ ICONS ^^^^^^^^^^^^^^^^
- */
 .icon-container-xxl-v-rectangle, .icon-container-xxl-h-rectangle, .icon-container-xxl-circle, .icon-container-xxl-square, .icon-container-xl-v-rectangle, .icon-container-xl-h-rectangle, .icon-container-xl-circle, .icon-container-xl-square, .icon-container-l-v-rectangle, .icon-container-l-h-rectangle, .icon-container-l-circle, .icon-container-l-square, .icon-container-m-v-rectangle, .icon-container-m-h-rectangle, .icon-container-m-circle, .icon-container-m-square, .icon-container-s-v-rectangle, .icon-container-s-h-rectangle, .icon-container-s-circle, .icon-container-s-square, .icon-container-xs-v-rectangle, .icon-container-xs-h-rectangle, .icon-container-xs-circle, .icon-container-xs-square, .icon-container-xxs-v-rectangle, .icon-container-xxs-h-rectangle, .icon-container-xxs-circle, .icon-container-xxs-square {
   align-items: center;
   border-radius: 5%;
@@ -407,9 +453,6 @@
   max-width: 100%;
 }
 
-/*
- * ^^^^^^^^^^^^^^^^ IMAGES ^^^^^^^^^^^^^^^^
- */
 .image-container-xxl-v-rectangle, .image-container-xxl-h-rectangle, .image-container-xxl-circle, .image-container-xxl-square, .image-container-xl-v-rectangle, .image-container-xl-h-rectangle, .image-container-xl-circle, .image-container-xl-square, .image-container-l-v-rectangle, .image-container-l-h-rectangle, .image-container-l-circle, .image-container-l-square, .image-container-m-v-rectangle, .image-container-m-h-rectangle, .image-container-m-circle, .image-container-m-square, .image-container-s-v-rectangle, .image-container-s-h-rectangle, .image-container-s-circle, .image-container-s-square, .image-container-xs-v-rectangle, .image-container-xs-h-rectangle, .image-container-xs-circle, .image-container-xs-square, .image-container-xxs-v-rectangle, .image-container-xxs-h-rectangle, .image-container-xxs-circle, .image-container-xxs-square {
   align-items: center;
   border-radius: 5%;
@@ -576,12 +619,6 @@
   max-width: 100%;
 }
 
-/*
- * ^^^^^^^^^^^^^^^^ HEIGHT ^^^^^^^^^^^^^^^^ 
- */
-/*
- * ---------------- height % ---------------- 
- */
 .h-1 {
   height: 1%;
 }
@@ -982,9 +1019,6 @@
   height: 100%;
 }
 
-/*
- * ---------------- height vh ---------------- 
- */
 .h-1v {
   height: 1vh;
 }
@@ -1385,12 +1419,6 @@
   height: 100vh;
 }
 
-/*
- * ^^^^^^^^^^^^^^^^ WIDTH ^^^^^^^^^^^^^^^^
- */
-/*
- * ---------------- width % ---------------- 
- */
 .w-1 {
   width: 1%;
 }
@@ -1791,9 +1819,6 @@
   width: 100%;
 }
 
-/*
- * ---------------- width vw ---------------- 
- */
 .w-1v {
   width: 1vw;
 }
@@ -2194,9 +2219,6 @@
   width: 100vw;
 }
 
-/*
- * ^^^^^^^^^^^^^^^^ MARGIN ^^^^^^^^^^^^^^^^ 
- */
 .m-auto {
   margin: auto;
 }
@@ -4747,9 +4769,6 @@
   margin-left: 20.75rem;
 }
 
-/*
- * ^^^^^^^^^^^^^^^^ PADDING ^^^^^^^^^^^^^^^^ 
- */
 .p-auto {
   padding: auto;
 }
@@ -7300,9 +7319,6 @@
   padding-left: 20.75rem;
 }
 
-/*
- * ^^^^^^^^^^^^^^^^ BACKGROUND-COLORS ^^^^^^^^^^^^^^^^ 
- */
 .bg-aliceblue {
   background-color: aliceblue;
 }
@@ -7895,9 +7911,6 @@
   background-color: yellowgreen;
 }
 
-/*
- * ^^^^^^^^^^^^^^^^ TEXT-COLORS ^^^^^^^^^^^^^^^^ 
- */
 .txt-aliceblue {
   color: aliceblue;
 }
@@ -8488,6 +8501,22 @@
 
 .txt-yellowgreen {
   color: yellowgreen;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-justify {
+  text-align: justify;
 }
 
 /*# sourceMappingURL=kickstart.css.map */

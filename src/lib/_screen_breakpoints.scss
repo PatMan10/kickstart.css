@@ -1,3 +1,7 @@
+// ####################
+// SCREEN BREAKPOINTS
+// ####################
+
 $sizes: "xxs", "xs", "s", "m", "l", "xl", "xxl";
 
 $screen_breakpoints: (
@@ -21,12 +25,12 @@ $scale_multipliers: (
 );
 
 $body_bg_colors: (
-  xxs: darkRed,
+  xxs: darkred,
   xs: red,
   s: orange,
   m: yellow,
-  l: greenYellow,
-  xl: limeGreen,
+  l: greenyellow,
+  xl: limegreen,
   xxl: green,
 );
 

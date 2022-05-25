@@ -6,3 +6,7 @@
 h1 {
   font-size: 70px;
 }
+
+.container {
+  border: 1px solid cyan;
+}

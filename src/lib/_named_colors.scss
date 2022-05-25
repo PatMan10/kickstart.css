@@ -1,3 +1,7 @@
+// ####################
+// NAMED COLORS
+// ####################
+
 $colors: "aliceblue", "antiquewhite", "aqua", "aquamarine", "azure", "beige",
   "bisque", "black", "blanchedalmond", "blue", "blueviolet", "brown",
   "burlywood", "cadetblue", "chartreuse", "chocolate", "coral", "cornflowerblue",
@@ -26,9 +30,7 @@ $colors: "aliceblue", "antiquewhite", "aqua", "aquamarine", "azure", "beige",
   "tomato", "turquoise", "violet", "wheat", "white", "whitesmoke", "yellow",
   "yellowgreen";
 
-/*
- * ^^^^^^^^^^^^^^^^ BACKGROUND-COLORS ^^^^^^^^^^^^^^^^ 
- */
+// BACKGROUND-COLORS
 
 @each $color in $colors {
   .bg-#{$color} {
@@ -36,9 +38,7 @@ $colors: "aliceblue", "antiquewhite", "aqua", "aquamarine", "azure", "beige",
   }
 }
 
-/*
- * ^^^^^^^^^^^^^^^^ TEXT-COLORS ^^^^^^^^^^^^^^^^ 
- */
+// TEXT-COLORS
 
 @each $color in $colors {
   .txt-#{$color} {

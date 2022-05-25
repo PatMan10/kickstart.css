@@ -1,3 +1,7 @@
+// ####################
+// MARGIN AND PADDING
+// ####################
+
 $sides: "", "x", "y", "t", "r", "b", "l";
 
 @function getProps($prop, $side) {
@@ -24,9 +28,8 @@ $sides: "", "x", "y", "t", "r", "b", "l";
   }
 }
 
-/*
- * ^^^^^^^^^^^^^^^^ MARGIN ^^^^^^^^^^^^^^^^ 
- */
+// MARGIN
+
 @each $side in $sides {
   .m#{$side}-auto {
     @each $prop in getProps("margin", $side) {
@@ -47,9 +50,8 @@ $sides: "", "x", "y", "t", "r", "b", "l";
   }
 }
 
-/*
- * ^^^^^^^^^^^^^^^^ PADDING ^^^^^^^^^^^^^^^^ 
- */
+// PADDING
+
 @each $side in $sides {
   .p#{$side}-auto {
     @each $prop in getProps("padding", $side) {

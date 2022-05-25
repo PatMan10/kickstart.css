@@ -1,6 +1,7 @@
-/*
- * ^^^^^^^^^^^^^^^^ IMAGES ^^^^^^^^^^^^^^^^
- */
+// ####################
+// IMAGES
+// ####################
+
 %image-container {
   align-items: center;
   border-radius: 5%;
@@ -20,7 +21,7 @@ $base_w: 200px;
 @each $size in $sizes {
   $h: $base_h * map-get($scale_multipliers, $size);
   $w: $base_w * map-get($scale_multipliers, $size);
-  
+
   @each $shape in $shapes {
     @if $shape == "rectangle" {
       @each $orientation in $orientations {
