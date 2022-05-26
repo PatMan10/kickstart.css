@@ -33,7 +33,7 @@ $sides: "", "x", "y", "t", "r", "b", "l";
 @each $side in $sides {
   .m#{$side}-auto {
     @each $prop in getProps("margin", $side) {
-      #{$prop}: auto;
+      #{$prop}: auto !important;
     }
   }
 
@@ -42,7 +42,7 @@ $sides: "", "x", "y", "t", "r", "b", "l";
     @each $dec in ("", "\\.25", "\\.5", "\\.75") {
       .m#{$side}-#{$i}#{$dec} {
         @each $prop in getProps("margin", $side) {
-          #{$prop}: #{$v}rem;
+          #{$prop}: #{$v}rem !important;
         }
       }
       $v: $v + 0.25;
@@ -55,7 +55,7 @@ $sides: "", "x", "y", "t", "r", "b", "l";
 @each $side in $sides {
   .p#{$side}-auto {
     @each $prop in getProps("padding", $side) {
-      #{$prop}: auto;
+      #{$prop}: auto !important;
     }
   }
 
@@ -64,7 +64,7 @@ $sides: "", "x", "y", "t", "r", "b", "l";
     @each $dec in ("", "\\.25", "\\.5", "\\.75") {
       .p#{$side}-#{$i}#{$dec} {
         @each $prop in getProps("padding", $side) {
-          #{$prop}: #{$v}rem;
+          #{$prop}: #{$v}rem !important;
         }
       }
       $v: $v + 0.25;

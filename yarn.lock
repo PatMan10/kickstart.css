@@ -32,6 +32,14 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@patman10/kickstart.css@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@patman10/kickstart.css@workspace:."
+  dependencies:
+    sass: ^1.51.0
+  languageName: unknown
+  linkType: soft
+
 "@tootallnate/once@npm:2":
   version: 2.0.0
   resolution: "@tootallnate/once@npm:2.0.0"
@@ -551,14 +559,6 @@ __metadata:
   checksum: 26bf6c5480dda5161c820c5b5c751ae1e766c587b1f951ea3fcfc973bafb7831ae5b54a31a69bd670220e42e99ec154475025a468eae58ea262f813fdc8d1c62
   languageName: node
   linkType: hard
-
-"kickstart.css@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "kickstart.css@workspace:."
-  dependencies:
-    sass: ^1.51.0
-  languageName: unknown
-  linkType: soft
 
 "lru-cache@npm:^6.0.0":
   version: 6.0.0
